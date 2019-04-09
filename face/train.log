@@ -1,0 +1,2630 @@
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='', image_shape='3,224,224', layer_name='flatten0', lr=0.005, max_random_contrast=0.3, max_rotate_angle=15, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=10, num_examples=22500, period=100, random_mirror=1, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.005, max_random_contrast=0.3, max_rotate_angle=15, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=10, num_examples=22500, period=100, random_mirror=1, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 635.35 samples/sec	accuracy=0.892791	cross-entropy=0.254362
+Epoch[0] Train-accuracy=0.953125
+Epoch[0] Train-cross-entropy=0.144090
+Epoch[0] Time cost=11.346
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.822917
+Epoch[0] Validation-cross-entropy=0.577998
+Epoch[1] Batch [100]	Speed: 636.19 samples/sec	accuracy=0.957147	cross-entropy=0.109007
+Epoch[1] Train-accuracy=0.963542
+Epoch[1] Train-cross-entropy=0.103228
+Epoch[1] Time cost=10.408
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.784091
+Epoch[1] Validation-cross-entropy=0.702219
+Epoch[2] Batch [100]	Speed: 635.49 samples/sec	accuracy=0.960705	cross-entropy=0.099738
+Epoch[2] Train-accuracy=0.945312
+Epoch[2] Train-cross-entropy=0.163779
+Epoch[2] Time cost=10.320
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.738281
+Epoch[2] Validation-cross-entropy=0.973063
+Epoch[3] Batch [100]	Speed: 635.24 samples/sec	accuracy=0.967358	cross-entropy=0.080646
+Epoch[3] Train-accuracy=0.968750
+Epoch[3] Train-cross-entropy=0.134924
+Epoch[3] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.661932
+Epoch[3] Validation-cross-entropy=1.775409
+Epoch[4] Batch [100]	Speed: 634.14 samples/sec	accuracy=0.964109	cross-entropy=0.083104
+Epoch[4] Train-accuracy=0.976562
+Epoch[4] Train-cross-entropy=0.050083
+Epoch[4] Time cost=10.338
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.792969
+Epoch[4] Validation-cross-entropy=0.814490
+Epoch[5] Batch [100]	Speed: 632.93 samples/sec	accuracy=0.967822	cross-entropy=0.081968
+Epoch[5] Train-accuracy=0.979167
+Epoch[5] Train-cross-entropy=0.057341
+Epoch[5] Time cost=10.461
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.758523
+Epoch[5] Validation-cross-entropy=1.136876
+Epoch[6] Batch [100]	Speed: 631.26 samples/sec	accuracy=0.971071	cross-entropy=0.071004
+Epoch[6] Train-accuracy=0.953125
+Epoch[6] Train-cross-entropy=0.070920
+Epoch[6] Time cost=10.386
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.654948
+Epoch[6] Validation-cross-entropy=1.777763
+Epoch[7] Batch [100]	Speed: 630.87 samples/sec	accuracy=0.973700	cross-entropy=0.065626
+Epoch[7] Train-accuracy=0.968750
+Epoch[7] Train-cross-entropy=0.058811
+Epoch[7] Time cost=10.493
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.671875
+Epoch[7] Validation-cross-entropy=1.539651
+Epoch[8] Batch [100]	Speed: 630.66 samples/sec	accuracy=0.976795	cross-entropy=0.058193
+Epoch[8] Train-accuracy=0.968750
+Epoch[8] Train-cross-entropy=0.055798
+Epoch[8] Time cost=10.397
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.700521
+Epoch[8] Validation-cross-entropy=1.498566
+Epoch[9] Batch [100]	Speed: 630.03 samples/sec	accuracy=0.980198	cross-entropy=0.053918
+Epoch[9] Train-accuracy=0.968750
+Epoch[9] Train-cross-entropy=0.064386
+Epoch[9] Time cost=10.509
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.720170
+Epoch[9] Validation-cross-entropy=1.271809
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.005, max_random_contrast=0.3, max_rotate_angle=15, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=100, num_examples=22500, period=100, random_mirror=1, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 632.86 samples/sec	accuracy=0.895266	cross-entropy=0.256561
+Epoch[0] Train-accuracy=0.942708
+Epoch[0] Train-cross-entropy=0.153571
+Epoch[0] Time cost=11.181
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.811198
+Epoch[0] Validation-cross-entropy=0.648985
+Epoch[1] Batch [100]	Speed: 632.66 samples/sec	accuracy=0.952970	cross-entropy=0.115071
+Epoch[1] Train-accuracy=0.963542
+Epoch[1] Train-cross-entropy=0.089441
+Epoch[1] Time cost=10.463
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.728693
+Epoch[1] Validation-cross-entropy=0.947745
+Epoch[2] Batch [100]	Speed: 631.43 samples/sec	accuracy=0.961943	cross-entropy=0.097550
+Epoch[2] Train-accuracy=0.953125
+Epoch[2] Train-cross-entropy=0.120650
+Epoch[2] Time cost=10.382
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.766927
+Epoch[2] Validation-cross-entropy=0.851587
+Epoch[3] Batch [100]	Speed: 630.18 samples/sec	accuracy=0.966275	cross-entropy=0.081247
+Epoch[3] Train-accuracy=0.979167
+Epoch[3] Train-cross-entropy=0.105426
+Epoch[3] Time cost=10.508
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.586648
+Epoch[3] Validation-cross-entropy=2.071415
+Epoch[4] Batch [100]	Speed: 629.27 samples/sec	accuracy=0.961788	cross-entropy=0.094108
+Epoch[4] Train-accuracy=0.976562
+Epoch[4] Train-cross-entropy=0.070533
+Epoch[4] Time cost=10.420
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.686198
+Epoch[4] Validation-cross-entropy=1.144834
+Epoch[5] Batch [100]	Speed: 629.21 samples/sec	accuracy=0.970761	cross-entropy=0.079540
+Epoch[5] Train-accuracy=0.984375
+Epoch[5] Train-cross-entropy=0.077117
+Epoch[5] Time cost=10.523
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.643466
+Epoch[5] Validation-cross-entropy=1.698450
+Epoch[6] Batch [100]	Speed: 628.44 samples/sec	accuracy=0.972772	cross-entropy=0.067420
+Epoch[6] Train-accuracy=0.984375
+Epoch[6] Train-cross-entropy=0.074084
+Epoch[6] Time cost=10.431
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.703125
+Epoch[6] Validation-cross-entropy=1.351658
+Epoch[7] Batch [100]	Speed: 628.84 samples/sec	accuracy=0.977723	cross-entropy=0.060824
+Epoch[7] Train-accuracy=0.953125
+Epoch[7] Train-cross-entropy=0.113872
+Epoch[7] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.671875
+Epoch[7] Validation-cross-entropy=1.524914
+Epoch[8] Batch [100]	Speed: 628.19 samples/sec	accuracy=0.977568	cross-entropy=0.058790
+Epoch[8] Train-accuracy=0.953125
+Epoch[8] Train-cross-entropy=0.086602
+Epoch[8] Time cost=10.440
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.729167
+Epoch[8] Validation-cross-entropy=1.288931
+Epoch[9] Batch [100]	Speed: 628.36 samples/sec	accuracy=0.978342	cross-entropy=0.059564
+Epoch[9] Train-accuracy=0.979167
+Epoch[9] Train-cross-entropy=0.068942
+Epoch[9] Time cost=10.536
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.678977
+Epoch[9] Validation-cross-entropy=1.717882
+Epoch[10] Batch [100]	Speed: 629.08 samples/sec	accuracy=0.978496	cross-entropy=0.059863
+Epoch[10] Train-accuracy=0.989583
+Epoch[10] Train-cross-entropy=0.022755
+Epoch[10] Time cost=10.523
+Saved checkpoint to "output/resnet-18/resnet-18-0011.params"
+Epoch[10] Validation-accuracy=0.769531
+Epoch[10] Validation-cross-entropy=1.077267
+Epoch[11] Batch [100]	Speed: 628.87 samples/sec	accuracy=0.982209	cross-entropy=0.048223
+Epoch[11] Train-accuracy=0.984375
+Epoch[11] Train-cross-entropy=0.039643
+Epoch[11] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0012.params"
+Epoch[11] Validation-accuracy=0.671875
+Epoch[11] Validation-cross-entropy=1.656875
+Epoch[12] Batch [100]	Speed: 628.10 samples/sec	accuracy=0.981590	cross-entropy=0.049118
+Epoch[12] Train-accuracy=0.963542
+Epoch[12] Train-cross-entropy=0.135975
+Epoch[12] Time cost=10.539
+Saved checkpoint to "output/resnet-18/resnet-18-0013.params"
+Epoch[12] Validation-accuracy=0.686198
+Epoch[12] Validation-cross-entropy=1.664077
+Epoch[13] Batch [100]	Speed: 628.63 samples/sec	accuracy=0.982364	cross-entropy=0.041099
+Epoch[13] Train-accuracy=0.968750
+Epoch[13] Train-cross-entropy=0.107617
+Epoch[13] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0014.params"
+Epoch[13] Validation-accuracy=0.698864
+Epoch[13] Validation-cross-entropy=1.450625
+Epoch[14] Batch [100]	Speed: 629.32 samples/sec	accuracy=0.987469	cross-entropy=0.035138
+Epoch[14] Train-accuracy=0.979167
+Epoch[14] Train-cross-entropy=0.055789
+Epoch[14] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0015.params"
+Epoch[14] Validation-accuracy=0.591146
+Epoch[14] Validation-cross-entropy=2.613302
+Epoch[15] Batch [100]	Speed: 628.35 samples/sec	accuracy=0.983601	cross-entropy=0.040410
+Epoch[15] Train-accuracy=0.976562
+Epoch[15] Train-cross-entropy=0.033551
+Epoch[15] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0016.params"
+Epoch[15] Validation-accuracy=0.700284
+Epoch[15] Validation-cross-entropy=1.734242
+Update[1756]: Change learning rate to 1.00000e-03
+Epoch[16] Batch [100]	Speed: 629.19 samples/sec	accuracy=0.986231	cross-entropy=0.039149
+Epoch[16] Train-accuracy=0.994792
+Epoch[16] Train-cross-entropy=0.016961
+Epoch[16] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0017.params"
+Epoch[16] Validation-accuracy=0.776042
+Epoch[16] Validation-cross-entropy=0.973529
+Epoch[17] Batch [100]	Speed: 628.60 samples/sec	accuracy=0.990563	cross-entropy=0.029237
+Epoch[17] Train-accuracy=0.992188
+Epoch[17] Train-cross-entropy=0.025556
+Epoch[17] Time cost=10.431
+Saved checkpoint to "output/resnet-18/resnet-18-0018.params"
+Epoch[17] Validation-accuracy=0.694602
+Epoch[17] Validation-cross-entropy=1.688581
+Epoch[18] Batch [100]	Speed: 628.27 samples/sec	accuracy=0.990873	cross-entropy=0.027345
+Epoch[18] Train-accuracy=1.000000
+Epoch[18] Train-cross-entropy=0.010141
+Epoch[18] Time cost=10.540
+Saved checkpoint to "output/resnet-18/resnet-18-0019.params"
+Epoch[18] Validation-accuracy=0.716146
+Epoch[18] Validation-cross-entropy=1.540834
+Epoch[19] Batch [100]	Speed: 627.06 samples/sec	accuracy=0.993657	cross-entropy=0.018366
+Epoch[19] Train-accuracy=1.000000
+Epoch[19] Train-cross-entropy=0.018058
+Epoch[19] Time cost=10.458
+Saved checkpoint to "output/resnet-18/resnet-18-0020.params"
+Epoch[19] Validation-accuracy=0.686080
+Epoch[19] Validation-cross-entropy=1.933313
+Epoch[20] Batch [100]	Speed: 628.11 samples/sec	accuracy=0.993657	cross-entropy=0.019656
+Epoch[20] Train-accuracy=1.000000
+Epoch[20] Train-cross-entropy=0.009159
+Epoch[20] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0021.params"
+Epoch[20] Validation-accuracy=0.691406
+Epoch[20] Validation-cross-entropy=1.897657
+Epoch[21] Batch [100]	Speed: 628.64 samples/sec	accuracy=0.993348	cross-entropy=0.020928
+Epoch[21] Train-accuracy=0.989583
+Epoch[21] Train-cross-entropy=0.045030
+Epoch[21] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0022.params"
+Epoch[21] Validation-accuracy=0.694602
+Epoch[21] Validation-cross-entropy=1.974283
+Epoch[22] Batch [100]	Speed: 628.54 samples/sec	accuracy=0.993038	cross-entropy=0.021214
+Epoch[22] Train-accuracy=0.992188
+Epoch[22] Train-cross-entropy=0.025445
+Epoch[22] Time cost=10.431
+Saved checkpoint to "output/resnet-18/resnet-18-0023.params"
+Epoch[22] Validation-accuracy=0.691406
+Epoch[22] Validation-cross-entropy=1.914224
+Epoch[23] Batch [100]	Speed: 628.65 samples/sec	accuracy=0.993657	cross-entropy=0.018314
+Epoch[23] Train-accuracy=0.989583
+Epoch[23] Train-cross-entropy=0.014552
+Epoch[23] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0024.params"
+Epoch[23] Validation-accuracy=0.684659
+Epoch[23] Validation-cross-entropy=2.053276
+Epoch[24] Batch [100]	Speed: 628.09 samples/sec	accuracy=0.995050	cross-entropy=0.016487
+Epoch[24] Train-accuracy=0.992188
+Epoch[24] Train-cross-entropy=0.015257
+Epoch[24] Time cost=10.439
+Saved checkpoint to "output/resnet-18/resnet-18-0025.params"
+Epoch[24] Validation-accuracy=0.707031
+Epoch[24] Validation-cross-entropy=1.787697
+Epoch[25] Batch [100]	Speed: 628.08 samples/sec	accuracy=0.993502	cross-entropy=0.018930
+Epoch[25] Train-accuracy=0.994792
+Epoch[25] Train-cross-entropy=0.016234
+Epoch[25] Time cost=10.540
+Saved checkpoint to "output/resnet-18/resnet-18-0026.params"
+Epoch[25] Validation-accuracy=0.688920
+Epoch[25] Validation-cross-entropy=1.984177
+Epoch[26] Batch [100]	Speed: 628.94 samples/sec	accuracy=0.994585	cross-entropy=0.017451
+Epoch[26] Train-accuracy=0.992188
+Epoch[26] Train-cross-entropy=0.015278
+Epoch[26] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0027.params"
+Epoch[26] Validation-accuracy=0.684896
+Epoch[26] Validation-cross-entropy=2.026804
+Epoch[27] Batch [100]	Speed: 629.19 samples/sec	accuracy=0.994276	cross-entropy=0.016639
+Epoch[27] Train-accuracy=1.000000
+Epoch[27] Train-cross-entropy=0.008063
+Epoch[27] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0028.params"
+Epoch[27] Validation-accuracy=0.677557
+Epoch[27] Validation-cross-entropy=2.147435
+Epoch[28] Batch [100]	Speed: 628.72 samples/sec	accuracy=0.997215	cross-entropy=0.011997
+Epoch[28] Train-accuracy=0.992188
+Epoch[28] Train-cross-entropy=0.014764
+Epoch[28] Time cost=10.429
+Saved checkpoint to "output/resnet-18/resnet-18-0029.params"
+Epoch[28] Validation-accuracy=0.695312
+Epoch[28] Validation-cross-entropy=2.028479
+Epoch[29] Batch [100]	Speed: 628.77 samples/sec	accuracy=0.996287	cross-entropy=0.012121
+Epoch[29] Train-accuracy=1.000000
+Epoch[29] Train-cross-entropy=0.008796
+Epoch[29] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0030.params"
+Epoch[29] Validation-accuracy=0.687500
+Epoch[29] Validation-cross-entropy=2.136390
+Epoch[30] Batch [100]	Speed: 628.68 samples/sec	accuracy=0.997370	cross-entropy=0.011357
+Epoch[30] Train-accuracy=1.000000
+Epoch[30] Train-cross-entropy=0.006586
+Epoch[30] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0031.params"
+Epoch[30] Validation-accuracy=0.683594
+Epoch[30] Validation-cross-entropy=2.195694
+Epoch[31] Batch [100]	Speed: 629.14 samples/sec	accuracy=0.996132	cross-entropy=0.013683
+Epoch[31] Train-accuracy=1.000000
+Epoch[31] Train-cross-entropy=0.003888
+Epoch[31] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0032.params"
+Epoch[31] Validation-accuracy=0.687500
+Epoch[31] Validation-cross-entropy=2.069547
+Epoch[32] Batch [100]	Speed: 627.95 samples/sec	accuracy=0.995823	cross-entropy=0.012436
+Epoch[32] Train-accuracy=1.000000
+Epoch[32] Train-cross-entropy=0.004132
+Epoch[32] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0033.params"
+Epoch[32] Validation-accuracy=0.664773
+Epoch[32] Validation-cross-entropy=2.422439
+Update[3511]: Change learning rate to 2.00000e-04
+Epoch[33] Batch [100]	Speed: 628.62 samples/sec	accuracy=0.995668	cross-entropy=0.013059
+Epoch[33] Train-accuracy=0.992188
+Epoch[33] Train-cross-entropy=0.016972
+Epoch[33] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0034.params"
+Epoch[33] Validation-accuracy=0.690104
+Epoch[33] Validation-cross-entropy=2.121846
+Epoch[34] Batch [100]	Speed: 628.90 samples/sec	accuracy=0.996287	cross-entropy=0.012739
+Epoch[34] Train-accuracy=1.000000
+Epoch[34] Train-cross-entropy=0.003015
+Epoch[34] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0035.params"
+Epoch[34] Validation-accuracy=0.677557
+Epoch[34] Validation-cross-entropy=2.293387
+Epoch[35] Batch [100]	Speed: 627.55 samples/sec	accuracy=0.995359	cross-entropy=0.013755
+Epoch[35] Train-accuracy=1.000000
+Epoch[35] Train-cross-entropy=0.001974
+Epoch[35] Time cost=10.447
+Saved checkpoint to "output/resnet-18/resnet-18-0036.params"
+Epoch[35] Validation-accuracy=0.669271
+Epoch[35] Validation-cross-entropy=2.351948
+Epoch[36] Batch [100]	Speed: 627.68 samples/sec	accuracy=0.997989	cross-entropy=0.008890
+Epoch[36] Train-accuracy=0.989583
+Epoch[36] Train-cross-entropy=0.017593
+Epoch[36] Time cost=10.546
+Saved checkpoint to "output/resnet-18/resnet-18-0037.params"
+Epoch[36] Validation-accuracy=0.674716
+Epoch[36] Validation-cross-entropy=2.329428
+Epoch[37] Batch [100]	Speed: 628.10 samples/sec	accuracy=0.997215	cross-entropy=0.010066
+Epoch[37] Train-accuracy=1.000000
+Epoch[37] Train-cross-entropy=0.005453
+Epoch[37] Time cost=10.439
+Saved checkpoint to "output/resnet-18/resnet-18-0038.params"
+Epoch[37] Validation-accuracy=0.682292
+Epoch[37] Validation-cross-entropy=2.232077
+Epoch[38] Batch [100]	Speed: 628.15 samples/sec	accuracy=0.996442	cross-entropy=0.010121
+Epoch[38] Train-accuracy=0.989583
+Epoch[38] Train-cross-entropy=0.012504
+Epoch[38] Time cost=10.538
+Saved checkpoint to "output/resnet-18/resnet-18-0039.params"
+Epoch[38] Validation-accuracy=0.687500
+Epoch[38] Validation-cross-entropy=2.238834
+Epoch[39] Batch [100]	Speed: 628.36 samples/sec	accuracy=0.997525	cross-entropy=0.008998
+Epoch[39] Train-accuracy=1.000000
+Epoch[39] Train-cross-entropy=0.004346
+Epoch[39] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0040.params"
+Epoch[39] Validation-accuracy=0.673177
+Epoch[39] Validation-cross-entropy=2.362696
+Epoch[40] Batch [100]	Speed: 628.67 samples/sec	accuracy=0.998762	cross-entropy=0.007489
+Epoch[40] Train-accuracy=1.000000
+Epoch[40] Train-cross-entropy=0.003064
+Epoch[40] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0041.params"
+Epoch[40] Validation-accuracy=0.666193
+Epoch[40] Validation-cross-entropy=2.469589
+Epoch[41] Batch [100]	Speed: 627.57 samples/sec	accuracy=0.998144	cross-entropy=0.008309
+Epoch[41] Train-accuracy=1.000000
+Epoch[41] Train-cross-entropy=0.001920
+Epoch[41] Time cost=10.452
+Saved checkpoint to "output/resnet-18/resnet-18-0042.params"
+Epoch[41] Validation-accuracy=0.683594
+Epoch[41] Validation-cross-entropy=2.269786
+Epoch[42] Batch [100]	Speed: 628.02 samples/sec	accuracy=0.996751	cross-entropy=0.011264
+Epoch[42] Train-accuracy=1.000000
+Epoch[42] Train-cross-entropy=0.004920
+Epoch[42] Time cost=10.540
+Saved checkpoint to "output/resnet-18/resnet-18-0043.params"
+Epoch[42] Validation-accuracy=0.666193
+Epoch[42] Validation-cross-entropy=2.490713
+Epoch[43] Batch [100]	Speed: 628.40 samples/sec	accuracy=0.996132	cross-entropy=0.012161
+Epoch[43] Train-accuracy=0.994792
+Epoch[43] Train-cross-entropy=0.006530
+Epoch[43] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0044.params"
+Epoch[43] Validation-accuracy=0.682292
+Epoch[43] Validation-cross-entropy=2.304832
+Epoch[44] Batch [100]	Speed: 628.05 samples/sec	accuracy=0.997679	cross-entropy=0.009397
+Epoch[44] Train-accuracy=1.000000
+Epoch[44] Train-cross-entropy=0.003104
+Epoch[44] Time cost=10.440
+Saved checkpoint to "output/resnet-18/resnet-18-0045.params"
+Epoch[44] Validation-accuracy=0.667614
+Epoch[44] Validation-cross-entropy=2.468956
+Epoch[45] Batch [100]	Speed: 628.13 samples/sec	accuracy=0.997834	cross-entropy=0.009871
+Epoch[45] Train-accuracy=1.000000
+Epoch[45] Train-cross-entropy=0.003836
+Epoch[45] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0046.params"
+Epoch[45] Validation-accuracy=0.673177
+Epoch[45] Validation-cross-entropy=2.460647
+Epoch[46] Batch [100]	Speed: 628.81 samples/sec	accuracy=0.997989	cross-entropy=0.007491
+Epoch[46] Train-accuracy=0.992188
+Epoch[46] Train-cross-entropy=0.017504
+Epoch[46] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0047.params"
+Epoch[46] Validation-accuracy=0.683239
+Epoch[46] Validation-cross-entropy=2.286997
+Epoch[47] Batch [100]	Speed: 628.40 samples/sec	accuracy=0.998608	cross-entropy=0.006596
+Epoch[47] Train-accuracy=1.000000
+Epoch[47] Train-cross-entropy=0.007692
+Epoch[47] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0048.params"
+Epoch[47] Validation-accuracy=0.683594
+Epoch[47] Validation-cross-entropy=2.319049
+Epoch[48] Batch [100]	Speed: 628.18 samples/sec	accuracy=0.996442	cross-entropy=0.012920
+Epoch[48] Train-accuracy=1.000000
+Epoch[48] Train-cross-entropy=0.004304
+Epoch[48] Time cost=10.438
+Saved checkpoint to "output/resnet-18/resnet-18-0049.params"
+Epoch[48] Validation-accuracy=0.666193
+Epoch[48] Validation-cross-entropy=2.538004
+Epoch[49] Batch [100]	Speed: 628.40 samples/sec	accuracy=0.997370	cross-entropy=0.009929
+Epoch[49] Train-accuracy=0.994792
+Epoch[49] Train-cross-entropy=0.014762
+Epoch[49] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0050.params"
+Epoch[49] Validation-accuracy=0.679688
+Epoch[49] Validation-cross-entropy=2.379985
+Update[5266]: Change learning rate to 4.00000e-05
+Epoch[50] Batch [100]	Speed: 628.77 samples/sec	accuracy=0.997989	cross-entropy=0.007739
+Epoch[50] Train-accuracy=1.000000
+Epoch[50] Train-cross-entropy=0.003999
+Epoch[50] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0051.params"
+Epoch[50] Validation-accuracy=0.671875
+Epoch[50] Validation-cross-entropy=2.480860
+Epoch[51] Batch [100]	Speed: 629.43 samples/sec	accuracy=0.996751	cross-entropy=0.009403
+Epoch[51] Train-accuracy=1.000000
+Epoch[51] Train-cross-entropy=0.005046
+Epoch[51] Time cost=10.520
+Saved checkpoint to "output/resnet-18/resnet-18-0052.params"
+Epoch[51] Validation-accuracy=0.678385
+Epoch[51] Validation-cross-entropy=2.417601
+Epoch[52] Batch [100]	Speed: 628.01 samples/sec	accuracy=0.996906	cross-entropy=0.009289
+Epoch[52] Train-accuracy=1.000000
+Epoch[52] Train-cross-entropy=0.004386
+Epoch[52] Time cost=10.439
+Saved checkpoint to "output/resnet-18/resnet-18-0053.params"
+Epoch[52] Validation-accuracy=0.671875
+Epoch[52] Validation-cross-entropy=2.484979
+Epoch[53] Batch [100]	Speed: 628.12 samples/sec	accuracy=0.997525	cross-entropy=0.008145
+Epoch[53] Train-accuracy=1.000000
+Epoch[53] Train-cross-entropy=0.006505
+Epoch[53] Time cost=10.539
+Saved checkpoint to "output/resnet-18/resnet-18-0054.params"
+Epoch[53] Validation-accuracy=0.678385
+Epoch[53] Validation-cross-entropy=2.359526
+Epoch[54] Batch [100]	Speed: 628.79 samples/sec	accuracy=0.997215	cross-entropy=0.008960
+Epoch[54] Train-accuracy=1.000000
+Epoch[54] Train-cross-entropy=0.005480
+Epoch[54] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0055.params"
+Epoch[54] Validation-accuracy=0.680398
+Epoch[54] Validation-cross-entropy=2.375744
+Epoch[55] Batch [100]	Speed: 628.91 samples/sec	accuracy=0.997525	cross-entropy=0.009608
+Epoch[55] Train-accuracy=1.000000
+Epoch[55] Train-cross-entropy=0.004721
+Epoch[55] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0056.params"
+Epoch[55] Validation-accuracy=0.678385
+Epoch[55] Validation-cross-entropy=2.406276
+Epoch[56] Batch [100]	Speed: 628.25 samples/sec	accuracy=0.997061	cross-entropy=0.009915
+Epoch[56] Train-accuracy=0.994792
+Epoch[56] Train-cross-entropy=0.009889
+Epoch[56] Time cost=10.538
+Saved checkpoint to "output/resnet-18/resnet-18-0057.params"
+Epoch[56] Validation-accuracy=0.670455
+Epoch[56] Validation-cross-entropy=2.494570
+Epoch[57] Batch [100]	Speed: 628.33 samples/sec	accuracy=0.997834	cross-entropy=0.009501
+Epoch[57] Train-accuracy=1.000000
+Epoch[57] Train-cross-entropy=0.003068
+Epoch[57] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0058.params"
+Epoch[57] Validation-accuracy=0.677083
+Epoch[57] Validation-cross-entropy=2.376008
+Epoch[58] Batch [100]	Speed: 628.32 samples/sec	accuracy=0.997215	cross-entropy=0.009852
+Epoch[58] Train-accuracy=1.000000
+Epoch[58] Train-cross-entropy=0.005277
+Epoch[58] Time cost=10.535
+Saved checkpoint to "output/resnet-18/resnet-18-0059.params"
+Epoch[58] Validation-accuracy=0.674716
+Epoch[58] Validation-cross-entropy=2.443713
+Epoch[59] Batch [100]	Speed: 628.65 samples/sec	accuracy=0.997989	cross-entropy=0.007951
+Epoch[59] Train-accuracy=0.992188
+Epoch[59] Train-cross-entropy=0.015336
+Epoch[59] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0060.params"
+Epoch[59] Validation-accuracy=0.682292
+Epoch[59] Validation-cross-entropy=2.362546
+Epoch[60] Batch [100]	Speed: 629.14 samples/sec	accuracy=0.997834	cross-entropy=0.008138
+Epoch[60] Train-accuracy=0.994792
+Epoch[60] Train-cross-entropy=0.021472
+Epoch[60] Time cost=10.525
+Saved checkpoint to "output/resnet-18/resnet-18-0061.params"
+Epoch[60] Validation-accuracy=0.688920
+Epoch[60] Validation-cross-entropy=2.324575
+Epoch[61] Batch [100]	Speed: 629.24 samples/sec	accuracy=0.997215	cross-entropy=0.009984
+Epoch[61] Train-accuracy=1.000000
+Epoch[61] Train-cross-entropy=0.007623
+Epoch[61] Time cost=10.420
+Saved checkpoint to "output/resnet-18/resnet-18-0062.params"
+Epoch[61] Validation-accuracy=0.680990
+Epoch[61] Validation-cross-entropy=2.355411
+Epoch[62] Batch [100]	Speed: 628.74 samples/sec	accuracy=0.997215	cross-entropy=0.008683
+Epoch[62] Train-accuracy=0.989583
+Epoch[62] Train-cross-entropy=0.016014
+Epoch[62] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0063.params"
+Epoch[62] Validation-accuracy=0.677557
+Epoch[62] Validation-cross-entropy=2.372561
+Epoch[63] Batch [100]	Speed: 623.38 samples/sec	accuracy=0.998453	cross-entropy=0.007385
+Epoch[63] Train-accuracy=1.000000
+Epoch[63] Train-cross-entropy=0.007990
+Epoch[63] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0064.params"
+Epoch[63] Validation-accuracy=0.691406
+Epoch[63] Validation-cross-entropy=2.299063
+Epoch[64] Batch [100]	Speed: 628.62 samples/sec	accuracy=0.998917	cross-entropy=0.007147
+Epoch[64] Train-accuracy=1.000000
+Epoch[64] Train-cross-entropy=0.007298
+Epoch[64] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0065.params"
+Epoch[64] Validation-accuracy=0.678385
+Epoch[64] Validation-cross-entropy=2.374056
+Epoch[65] Batch [100]	Speed: 628.26 samples/sec	accuracy=0.998917	cross-entropy=0.006651
+Epoch[65] Train-accuracy=0.994792
+Epoch[65] Train-cross-entropy=0.015943
+Epoch[65] Time cost=10.537
+Saved checkpoint to "output/resnet-18/resnet-18-0066.params"
+Epoch[65] Validation-accuracy=0.683239
+Epoch[65] Validation-cross-entropy=2.378211
+Epoch[66] Batch [100]	Speed: 628.05 samples/sec	accuracy=0.998298	cross-entropy=0.008474
+Epoch[66] Train-accuracy=1.000000
+Epoch[66] Train-cross-entropy=0.002190
+Epoch[66] Time cost=10.441
+Saved checkpoint to "output/resnet-18/resnet-18-0067.params"
+Epoch[66] Validation-accuracy=0.688802
+Epoch[66] Validation-cross-entropy=2.315826
+Update[7021]: Change learning rate to 8.00000e-06
+Epoch[67] Batch [100]	Speed: 628.78 samples/sec	accuracy=0.997834	cross-entropy=0.008091
+Epoch[67] Train-accuracy=1.000000
+Epoch[67] Train-cross-entropy=0.005875
+Epoch[67] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0068.params"
+Epoch[67] Validation-accuracy=0.681818
+Epoch[67] Validation-cross-entropy=2.376359
+Epoch[68] Batch [100]	Speed: 628.32 samples/sec	accuracy=0.997679	cross-entropy=0.009034
+Epoch[68] Train-accuracy=1.000000
+Epoch[68] Train-cross-entropy=0.003281
+Epoch[68] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0069.params"
+Epoch[68] Validation-accuracy=0.669271
+Epoch[68] Validation-cross-entropy=2.476173
+Epoch[69] Batch [100]	Speed: 627.94 samples/sec	accuracy=0.997215	cross-entropy=0.008593
+Epoch[69] Train-accuracy=1.000000
+Epoch[69] Train-cross-entropy=0.002718
+Epoch[69] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0070.params"
+Epoch[69] Validation-accuracy=0.673295
+Epoch[69] Validation-cross-entropy=2.465927
+Epoch[70] Batch [100]	Speed: 627.77 samples/sec	accuracy=0.997679	cross-entropy=0.008301
+Epoch[70] Train-accuracy=1.000000
+Epoch[70] Train-cross-entropy=0.002606
+Epoch[70] Time cost=10.444
+Saved checkpoint to "output/resnet-18/resnet-18-0071.params"
+Epoch[70] Validation-accuracy=0.682292
+Epoch[70] Validation-cross-entropy=2.333872
+Epoch[71] Batch [100]	Speed: 628.11 samples/sec	accuracy=0.996751	cross-entropy=0.010538
+Epoch[71] Train-accuracy=1.000000
+Epoch[71] Train-cross-entropy=0.007944
+Epoch[71] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0072.params"
+Epoch[71] Validation-accuracy=0.677557
+Epoch[71] Validation-cross-entropy=2.398179
+Epoch[72] Batch [100]	Speed: 627.85 samples/sec	accuracy=0.997679	cross-entropy=0.008110
+Epoch[72] Train-accuracy=0.992188
+Epoch[72] Train-cross-entropy=0.012939
+Epoch[72] Time cost=10.441
+Saved checkpoint to "output/resnet-18/resnet-18-0073.params"
+Epoch[72] Validation-accuracy=0.692708
+Epoch[72] Validation-cross-entropy=2.277152
+Epoch[73] Batch [100]	Speed: 627.89 samples/sec	accuracy=0.997679	cross-entropy=0.009263
+Epoch[73] Train-accuracy=1.000000
+Epoch[73] Train-cross-entropy=0.006957
+Epoch[73] Time cost=10.543
+Saved checkpoint to "output/resnet-18/resnet-18-0074.params"
+Epoch[73] Validation-accuracy=0.676136
+Epoch[73] Validation-cross-entropy=2.439400
+Epoch[74] Batch [100]	Speed: 628.38 samples/sec	accuracy=0.997525	cross-entropy=0.009848
+Epoch[74] Train-accuracy=0.994792
+Epoch[74] Train-cross-entropy=0.011032
+Epoch[74] Time cost=10.537
+Saved checkpoint to "output/resnet-18/resnet-18-0075.params"
+Epoch[74] Validation-accuracy=0.688802
+Epoch[74] Validation-cross-entropy=2.310824
+Epoch[75] Batch [100]	Speed: 628.97 samples/sec	accuracy=0.997061	cross-entropy=0.008961
+Epoch[75] Train-accuracy=1.000000
+Epoch[75] Train-cross-entropy=0.014249
+Epoch[75] Time cost=10.424
+Saved checkpoint to "output/resnet-18/resnet-18-0076.params"
+Epoch[75] Validation-accuracy=0.674716
+Epoch[75] Validation-cross-entropy=2.469028
+Epoch[76] Batch [100]	Speed: 628.64 samples/sec	accuracy=0.997215	cross-entropy=0.008785
+Epoch[76] Train-accuracy=0.994792
+Epoch[76] Train-cross-entropy=0.018087
+Epoch[76] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0077.params"
+Epoch[76] Validation-accuracy=0.696615
+Epoch[76] Validation-cross-entropy=2.238701
+Epoch[77] Batch [100]	Speed: 628.65 samples/sec	accuracy=0.997370	cross-entropy=0.009689
+Epoch[77] Train-accuracy=1.000000
+Epoch[77] Train-cross-entropy=0.001402
+Epoch[77] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0078.params"
+Epoch[77] Validation-accuracy=0.686080
+Epoch[77] Validation-cross-entropy=2.316695
+Epoch[78] Batch [100]	Speed: 628.55 samples/sec	accuracy=0.998144	cross-entropy=0.007273
+Epoch[78] Train-accuracy=1.000000
+Epoch[78] Train-cross-entropy=0.002580
+Epoch[78] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0079.params"
+Epoch[78] Validation-accuracy=0.683594
+Epoch[78] Validation-cross-entropy=2.356634
+Epoch[79] Batch [100]	Speed: 627.85 samples/sec	accuracy=0.997061	cross-entropy=0.009385
+Epoch[79] Train-accuracy=1.000000
+Epoch[79] Train-cross-entropy=0.012879
+Epoch[79] Time cost=10.443
+Saved checkpoint to "output/resnet-18/resnet-18-0080.params"
+Epoch[79] Validation-accuracy=0.678977
+Epoch[79] Validation-cross-entropy=2.407228
+Epoch[80] Batch [100]	Speed: 628.62 samples/sec	accuracy=0.997989	cross-entropy=0.007258
+Epoch[80] Train-accuracy=0.994792
+Epoch[80] Train-cross-entropy=0.016595
+Epoch[80] Time cost=10.536
+Saved checkpoint to "output/resnet-18/resnet-18-0081.params"
+Epoch[80] Validation-accuracy=0.688802
+Epoch[80] Validation-cross-entropy=2.309188
+Epoch[81] Batch [100]	Speed: 629.09 samples/sec	accuracy=0.998144	cross-entropy=0.008034
+Epoch[81] Train-accuracy=1.000000
+Epoch[81] Train-cross-entropy=0.005296
+Epoch[81] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0082.params"
+Epoch[81] Validation-accuracy=0.676136
+Epoch[81] Validation-cross-entropy=2.403053
+Epoch[82] Batch [100]	Speed: 628.69 samples/sec	accuracy=0.996287	cross-entropy=0.010983
+Epoch[82] Train-accuracy=1.000000
+Epoch[82] Train-cross-entropy=0.006372
+Epoch[82] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0083.params"
+Epoch[82] Validation-accuracy=0.680990
+Epoch[82] Validation-cross-entropy=2.394923
+Epoch[83] Batch [100]	Speed: 628.74 samples/sec	accuracy=0.997834	cross-entropy=0.008459
+Epoch[83] Train-accuracy=1.000000
+Epoch[83] Train-cross-entropy=0.004707
+Epoch[83] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0084.params"
+Epoch[83] Validation-accuracy=0.686080
+Epoch[83] Validation-cross-entropy=2.379230
+Update[8776]: Change learning rate to 1.60000e-06
+Epoch[84] Batch [100]	Speed: 627.88 samples/sec	accuracy=0.997679	cross-entropy=0.007803
+Epoch[84] Train-accuracy=0.994792
+Epoch[84] Train-cross-entropy=0.016295
+Epoch[84] Time cost=10.546
+Saved checkpoint to "output/resnet-18/resnet-18-0085.params"
+Epoch[84] Validation-accuracy=0.682292
+Epoch[84] Validation-cross-entropy=2.346546
+Epoch[85] Batch [100]	Speed: 628.64 samples/sec	accuracy=0.998298	cross-entropy=0.007706
+Epoch[85] Train-accuracy=1.000000
+Epoch[85] Train-cross-entropy=0.003456
+Epoch[85] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0086.params"
+Epoch[85] Validation-accuracy=0.674716
+Epoch[85] Validation-cross-entropy=2.458793
+Epoch[86] Batch [100]	Speed: 628.07 samples/sec	accuracy=0.997525	cross-entropy=0.008618
+Epoch[86] Train-accuracy=1.000000
+Epoch[86] Train-cross-entropy=0.003499
+Epoch[86] Time cost=10.439
+Saved checkpoint to "output/resnet-18/resnet-18-0087.params"
+Epoch[86] Validation-accuracy=0.675781
+Epoch[86] Validation-cross-entropy=2.470591
+Epoch[87] Batch [100]	Speed: 628.97 samples/sec	accuracy=0.997679	cross-entropy=0.008313
+Epoch[87] Train-accuracy=1.000000
+Epoch[87] Train-cross-entropy=0.004028
+Epoch[87] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0088.params"
+Epoch[87] Validation-accuracy=0.676136
+Epoch[87] Validation-cross-entropy=2.391696
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.005, max_random_contrast=0.0, max_rotate_angle=0, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=100, num_examples=22500, period=100, random_mirror=0, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 632.76 samples/sec	accuracy=0.911819	cross-entropy=0.217034
+Epoch[0] Train-accuracy=0.973958
+Epoch[0] Train-cross-entropy=0.087711
+Epoch[0] Time cost=11.196
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.812500
+Epoch[0] Validation-cross-entropy=0.730764
+Epoch[1] Batch [100]	Speed: 631.60 samples/sec	accuracy=0.980198	cross-entropy=0.055614
+Epoch[1] Train-accuracy=1.000000
+Epoch[1] Train-cross-entropy=0.026621
+Epoch[1] Time cost=10.478
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.713068
+Epoch[1] Validation-cross-entropy=1.395900
+Epoch[2] Batch [100]	Speed: 630.39 samples/sec	accuracy=0.989171	cross-entropy=0.033009
+Epoch[2] Train-accuracy=0.976562
+Epoch[2] Train-cross-entropy=0.063298
+Epoch[2] Time cost=10.395
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.760417
+Epoch[2] Validation-cross-entropy=1.339427
+Epoch[3] Batch [100]	Speed: 629.53 samples/sec	accuracy=0.992884	cross-entropy=0.019337
+Epoch[3] Train-accuracy=0.994792
+Epoch[3] Train-cross-entropy=0.020915
+Epoch[3] Time cost=10.512
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.676136
+Epoch[3] Validation-cross-entropy=2.127932
+Epoch[4] Batch [100]	Speed: 628.87 samples/sec	accuracy=0.995668	cross-entropy=0.015193
+Epoch[4] Train-accuracy=1.000000
+Epoch[4] Train-cross-entropy=0.009077
+Epoch[4] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.730469
+Epoch[4] Validation-cross-entropy=1.760063
+Epoch[5] Batch [100]	Speed: 629.41 samples/sec	accuracy=0.995359	cross-entropy=0.014707
+Epoch[5] Train-accuracy=1.000000
+Epoch[5] Train-cross-entropy=0.002675
+Epoch[5] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.710227
+Epoch[5] Validation-cross-entropy=2.153981
+Epoch[6] Batch [100]	Speed: 629.01 samples/sec	accuracy=0.997989	cross-entropy=0.007466
+Epoch[6] Train-accuracy=1.000000
+Epoch[6] Train-cross-entropy=0.003435
+Epoch[6] Time cost=10.418
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.714844
+Epoch[6] Validation-cross-entropy=2.039181
+Epoch[7] Batch [100]	Speed: 628.36 samples/sec	accuracy=0.998608	cross-entropy=0.004574
+Epoch[7] Train-accuracy=1.000000
+Epoch[7] Train-cross-entropy=0.002002
+Epoch[7] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.703125
+Epoch[7] Validation-cross-entropy=2.295871
+Epoch[8] Batch [100]	Speed: 628.66 samples/sec	accuracy=0.998917	cross-entropy=0.004153
+Epoch[8] Train-accuracy=1.000000
+Epoch[8] Train-cross-entropy=0.002754
+Epoch[8] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.720052
+Epoch[8] Validation-cross-entropy=2.224864
+Epoch[9] Batch [100]	Speed: 628.69 samples/sec	accuracy=0.999691	cross-entropy=0.001912
+Epoch[9] Train-accuracy=1.000000
+Epoch[9] Train-cross-entropy=0.000896
+Epoch[9] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.740057
+Epoch[9] Validation-cross-entropy=2.147556
+Epoch[10] Batch [100]	Speed: 628.98 samples/sec	accuracy=1.000000	cross-entropy=0.001295
+Epoch[10] Train-accuracy=1.000000
+Epoch[10] Train-cross-entropy=0.000863
+Epoch[10] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0011.params"
+Epoch[10] Validation-accuracy=0.717448
+Epoch[10] Validation-cross-entropy=2.423331
+Epoch[11] Batch [100]	Speed: 629.11 samples/sec	accuracy=0.999845	cross-entropy=0.001211
+Epoch[11] Train-accuracy=1.000000
+Epoch[11] Train-cross-entropy=0.000368
+Epoch[11] Time cost=10.417
+Saved checkpoint to "output/resnet-18/resnet-18-0012.params"
+Epoch[11] Validation-accuracy=0.698864
+Epoch[11] Validation-cross-entropy=2.708221
+Epoch[12] Batch [100]	Speed: 628.66 samples/sec	accuracy=0.999845	cross-entropy=0.001282
+Epoch[12] Train-accuracy=0.994792
+Epoch[12] Train-cross-entropy=0.011540
+Epoch[12] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0013.params"
+Epoch[12] Validation-accuracy=0.726562
+Epoch[12] Validation-cross-entropy=2.297011
+Epoch[13] Batch [100]	Speed: 628.75 samples/sec	accuracy=0.999691	cross-entropy=0.001548
+Epoch[13] Train-accuracy=1.000000
+Epoch[13] Train-cross-entropy=0.001078
+Epoch[13] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0014.params"
+Epoch[13] Validation-accuracy=0.713068
+Epoch[13] Validation-cross-entropy=2.500498
+Epoch[14] Batch [100]	Speed: 628.85 samples/sec	accuracy=0.999845	cross-entropy=0.000526
+Epoch[14] Train-accuracy=1.000000
+Epoch[14] Train-cross-entropy=0.000358
+Epoch[14] Time cost=10.523
+Saved checkpoint to "output/resnet-18/resnet-18-0015.params"
+Epoch[14] Validation-accuracy=0.717448
+Epoch[14] Validation-cross-entropy=2.529926
+Epoch[15] Batch [100]	Speed: 628.63 samples/sec	accuracy=1.000000	cross-entropy=0.000649
+Epoch[15] Train-accuracy=1.000000
+Epoch[15] Train-cross-entropy=0.000141
+Epoch[15] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0016.params"
+Epoch[15] Validation-accuracy=0.701705
+Epoch[15] Validation-cross-entropy=2.668416
+Update[1756]: Change learning rate to 1.00000e-03
+Epoch[16] Batch [100]	Speed: 629.27 samples/sec	accuracy=1.000000	cross-entropy=0.000431
+Epoch[16] Train-accuracy=1.000000
+Epoch[16] Train-cross-entropy=0.000258
+Epoch[16] Time cost=10.515
+Saved checkpoint to "output/resnet-18/resnet-18-0017.params"
+Epoch[16] Validation-accuracy=0.705729
+Epoch[16] Validation-cross-entropy=2.679276
+Epoch[17] Batch [100]	Speed: 629.13 samples/sec	accuracy=1.000000	cross-entropy=0.000608
+Epoch[17] Train-accuracy=1.000000
+Epoch[17] Train-cross-entropy=0.001117
+Epoch[17] Time cost=10.416
+Saved checkpoint to "output/resnet-18/resnet-18-0018.params"
+Epoch[17] Validation-accuracy=0.698864
+Epoch[17] Validation-cross-entropy=2.759793
+Epoch[18] Batch [100]	Speed: 628.53 samples/sec	accuracy=1.000000	cross-entropy=0.000572
+Epoch[18] Train-accuracy=1.000000
+Epoch[18] Train-cross-entropy=0.000178
+Epoch[18] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0019.params"
+Epoch[18] Validation-accuracy=0.722656
+Epoch[18] Validation-cross-entropy=2.459670
+Epoch[19] Batch [100]	Speed: 628.71 samples/sec	accuracy=1.000000	cross-entropy=0.000426
+Epoch[19] Train-accuracy=1.000000
+Epoch[19] Train-cross-entropy=0.000174
+Epoch[19] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0020.params"
+Epoch[19] Validation-accuracy=0.698864
+Epoch[19] Validation-cross-entropy=2.838675
+Epoch[20] Batch [100]	Speed: 628.60 samples/sec	accuracy=1.000000	cross-entropy=0.000247
+Epoch[20] Train-accuracy=1.000000
+Epoch[20] Train-cross-entropy=0.000157
+Epoch[20] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0021.params"
+Epoch[20] Validation-accuracy=0.708333
+Epoch[20] Validation-cross-entropy=2.584986
+Epoch[21] Batch [100]	Speed: 629.22 samples/sec	accuracy=1.000000	cross-entropy=0.000252
+Epoch[21] Train-accuracy=1.000000
+Epoch[21] Train-cross-entropy=0.000289
+Epoch[21] Time cost=10.517
+Saved checkpoint to "output/resnet-18/resnet-18-0022.params"
+Epoch[21] Validation-accuracy=0.708807
+Epoch[21] Validation-cross-entropy=2.625623
+Epoch[22] Batch [100]	Speed: 628.99 samples/sec	accuracy=1.000000	cross-entropy=0.000527
+Epoch[22] Train-accuracy=1.000000
+Epoch[22] Train-cross-entropy=0.000115
+Epoch[22] Time cost=10.419
+Saved checkpoint to "output/resnet-18/resnet-18-0023.params"
+Epoch[22] Validation-accuracy=0.700521
+Epoch[22] Validation-cross-entropy=2.799841
+Epoch[23] Batch [100]	Speed: 628.73 samples/sec	accuracy=1.000000	cross-entropy=0.000253
+Epoch[23] Train-accuracy=1.000000
+Epoch[23] Train-cross-entropy=0.000086
+Epoch[23] Time cost=10.525
+Saved checkpoint to "output/resnet-18/resnet-18-0024.params"
+Epoch[23] Validation-accuracy=0.710227
+Epoch[23] Validation-cross-entropy=2.724568
+Epoch[24] Batch [100]	Speed: 628.54 samples/sec	accuracy=0.999845	cross-entropy=0.000541
+Epoch[24] Train-accuracy=1.000000
+Epoch[24] Train-cross-entropy=0.000184
+Epoch[24] Time cost=10.427
+Saved checkpoint to "output/resnet-18/resnet-18-0025.params"
+Epoch[24] Validation-accuracy=0.720052
+Epoch[24] Validation-cross-entropy=2.549928
+Epoch[25] Batch [100]	Speed: 629.43 samples/sec	accuracy=1.000000	cross-entropy=0.000622
+Epoch[25] Train-accuracy=1.000000
+Epoch[25] Train-cross-entropy=0.000385
+Epoch[25] Time cost=10.514
+Saved checkpoint to "output/resnet-18/resnet-18-0026.params"
+Epoch[25] Validation-accuracy=0.707386
+Epoch[25] Validation-cross-entropy=2.745434
+Epoch[26] Batch [100]	Speed: 628.79 samples/sec	accuracy=1.000000	cross-entropy=0.000427
+Epoch[26] Train-accuracy=1.000000
+Epoch[26] Train-cross-entropy=0.000313
+Epoch[26] Time cost=10.424
+Saved checkpoint to "output/resnet-18/resnet-18-0027.params"
+Epoch[26] Validation-accuracy=0.723958
+Epoch[26] Validation-cross-entropy=2.473901
+Epoch[27] Batch [100]	Speed: 629.32 samples/sec	accuracy=1.000000	cross-entropy=0.000303
+Epoch[27] Train-accuracy=1.000000
+Epoch[27] Train-cross-entropy=0.000215
+Epoch[27] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0028.params"
+Epoch[27] Validation-accuracy=0.707386
+Epoch[27] Validation-cross-entropy=2.797652
+Epoch[28] Batch [100]	Speed: 629.04 samples/sec	accuracy=1.000000	cross-entropy=0.000266
+Epoch[28] Train-accuracy=1.000000
+Epoch[28] Train-cross-entropy=0.000822
+Epoch[28] Time cost=10.418
+Saved checkpoint to "output/resnet-18/resnet-18-0029.params"
+Epoch[28] Validation-accuracy=0.730469
+Epoch[28] Validation-cross-entropy=2.358463
+Epoch[29] Batch [100]	Speed: 628.62 samples/sec	accuracy=1.000000	cross-entropy=0.000250
+Epoch[29] Train-accuracy=1.000000
+Epoch[29] Train-cross-entropy=0.000405
+Epoch[29] Time cost=10.530
+Saved checkpoint to "output/resnet-18/resnet-18-0030.params"
+Epoch[29] Validation-accuracy=0.708807
+Epoch[29] Validation-cross-entropy=2.734705
+Epoch[30] Batch [100]	Speed: 628.45 samples/sec	accuracy=1.000000	cross-entropy=0.000253
+Epoch[30] Train-accuracy=1.000000
+Epoch[30] Train-cross-entropy=0.000129
+Epoch[30] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0031.params"
+Epoch[30] Validation-accuracy=0.712240
+Epoch[30] Validation-cross-entropy=2.611292
+Epoch[31] Batch [100]	Speed: 628.65 samples/sec	accuracy=1.000000	cross-entropy=0.000236
+Epoch[31] Train-accuracy=1.000000
+Epoch[31] Train-cross-entropy=0.000082
+Epoch[31] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0032.params"
+Epoch[31] Validation-accuracy=0.717448
+Epoch[31] Validation-cross-entropy=2.600178
+Epoch[32] Batch [100]	Speed: 629.05 samples/sec	accuracy=0.999691	cross-entropy=0.000648
+Epoch[32] Train-accuracy=1.000000
+Epoch[32] Train-cross-entropy=0.000114
+Epoch[32] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0033.params"
+Epoch[32] Validation-accuracy=0.701705
+Epoch[32] Validation-cross-entropy=2.832499
+Update[3511]: Change learning rate to 2.00000e-04
+Epoch[33] Batch [100]	Speed: 628.66 samples/sec	accuracy=1.000000	cross-entropy=0.000449
+Epoch[33] Train-accuracy=1.000000
+Epoch[33] Train-cross-entropy=0.000463
+Epoch[33] Time cost=10.424
+Saved checkpoint to "output/resnet-18/resnet-18-0034.params"
+Epoch[33] Validation-accuracy=0.703125
+Epoch[33] Validation-cross-entropy=2.805993
+Epoch[34] Batch [100]	Speed: 627.83 samples/sec	accuracy=1.000000	cross-entropy=0.000320
+Epoch[34] Train-accuracy=1.000000
+Epoch[34] Train-cross-entropy=0.000038
+Epoch[34] Time cost=10.540
+Saved checkpoint to "output/resnet-18/resnet-18-0035.params"
+Epoch[34] Validation-accuracy=0.703125
+Epoch[34] Validation-cross-entropy=2.807313
+Epoch[35] Batch [100]	Speed: 628.73 samples/sec	accuracy=0.999845	cross-entropy=0.000340
+Epoch[35] Train-accuracy=1.000000
+Epoch[35] Train-cross-entropy=0.000095
+Epoch[35] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0036.params"
+Epoch[35] Validation-accuracy=0.705729
+Epoch[35] Validation-cross-entropy=2.836574
+Epoch[36] Batch [100]	Speed: 628.25 samples/sec	accuracy=1.000000	cross-entropy=0.000230
+Epoch[36] Train-accuracy=1.000000
+Epoch[36] Train-cross-entropy=0.000141
+Epoch[36] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0037.params"
+Epoch[36] Validation-accuracy=0.698864
+Epoch[36] Validation-cross-entropy=2.812683
+Epoch[37] Batch [100]	Speed: 627.97 samples/sec	accuracy=1.000000	cross-entropy=0.000271
+Epoch[37] Train-accuracy=1.000000
+Epoch[37] Train-cross-entropy=0.000099
+Epoch[37] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0038.params"
+Epoch[37] Validation-accuracy=0.709635
+Epoch[37] Validation-cross-entropy=2.673512
+Epoch[38] Batch [100]	Speed: 629.03 samples/sec	accuracy=1.000000	cross-entropy=0.000255
+Epoch[38] Train-accuracy=1.000000
+Epoch[38] Train-cross-entropy=0.000140
+Epoch[38] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0039.params"
+Epoch[38] Validation-accuracy=0.710227
+Epoch[38] Validation-cross-entropy=2.610453
+Epoch[39] Batch [100]	Speed: 628.03 samples/sec	accuracy=1.000000	cross-entropy=0.000249
+Epoch[39] Train-accuracy=1.000000
+Epoch[39] Train-cross-entropy=0.000629
+Epoch[39] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0040.params"
+Epoch[39] Validation-accuracy=0.703125
+Epoch[39] Validation-cross-entropy=2.842360
+Epoch[40] Batch [100]	Speed: 628.69 samples/sec	accuracy=0.999845	cross-entropy=0.000460
+Epoch[40] Train-accuracy=1.000000
+Epoch[40] Train-cross-entropy=0.000081
+Epoch[40] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0041.params"
+Epoch[40] Validation-accuracy=0.691761
+Epoch[40] Validation-cross-entropy=2.955980
+Epoch[41] Batch [100]	Speed: 628.35 samples/sec	accuracy=1.000000	cross-entropy=0.000311
+Epoch[41] Train-accuracy=1.000000
+Epoch[41] Train-cross-entropy=0.000363
+Epoch[41] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0042.params"
+Epoch[41] Validation-accuracy=0.721354
+Epoch[41] Validation-cross-entropy=2.520617
+Epoch[42] Batch [100]	Speed: 629.03 samples/sec	accuracy=1.000000	cross-entropy=0.000447
+Epoch[42] Train-accuracy=1.000000
+Epoch[42] Train-cross-entropy=0.000442
+Epoch[42] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0043.params"
+Epoch[42] Validation-accuracy=0.697443
+Epoch[42] Validation-cross-entropy=2.931859
+Epoch[43] Batch [100]	Speed: 628.96 samples/sec	accuracy=0.999845	cross-entropy=0.000450
+Epoch[43] Train-accuracy=1.000000
+Epoch[43] Train-cross-entropy=0.000065
+Epoch[43] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0044.params"
+Epoch[43] Validation-accuracy=0.709635
+Epoch[43] Validation-cross-entropy=2.667825
+Epoch[44] Batch [100]	Speed: 628.72 samples/sec	accuracy=1.000000	cross-entropy=0.000324
+Epoch[44] Train-accuracy=1.000000
+Epoch[44] Train-cross-entropy=0.000162
+Epoch[44] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0045.params"
+Epoch[44] Validation-accuracy=0.698864
+Epoch[44] Validation-cross-entropy=2.844660
+Epoch[45] Batch [100]	Speed: 629.07 samples/sec	accuracy=1.000000	cross-entropy=0.000298
+Epoch[45] Train-accuracy=1.000000
+Epoch[45] Train-cross-entropy=0.000234
+Epoch[45] Time cost=10.518
+Saved checkpoint to "output/resnet-18/resnet-18-0046.params"
+Epoch[45] Validation-accuracy=0.699219
+Epoch[45] Validation-cross-entropy=2.871988
+Epoch[46] Batch [100]	Speed: 628.52 samples/sec	accuracy=1.000000	cross-entropy=0.000209
+Epoch[46] Train-accuracy=1.000000
+Epoch[46] Train-cross-entropy=0.000269
+Epoch[46] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0047.params"
+Epoch[46] Validation-accuracy=0.720170
+Epoch[46] Validation-cross-entropy=2.569537
+Epoch[47] Batch [100]	Speed: 628.54 samples/sec	accuracy=1.000000	cross-entropy=0.000156
+Epoch[47] Train-accuracy=1.000000
+Epoch[47] Train-cross-entropy=0.000134
+Epoch[47] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0048.params"
+Epoch[47] Validation-accuracy=0.712240
+Epoch[47] Validation-cross-entropy=2.675888
+Epoch[48] Batch [100]	Speed: 627.96 samples/sec	accuracy=1.000000	cross-entropy=0.000329
+Epoch[48] Train-accuracy=1.000000
+Epoch[48] Train-cross-entropy=0.000042
+Epoch[48] Time cost=10.436
+Saved checkpoint to "output/resnet-18/resnet-18-0049.params"
+Epoch[48] Validation-accuracy=0.703125
+Epoch[48] Validation-cross-entropy=2.833886
+Epoch[49] Batch [100]	Speed: 628.87 samples/sec	accuracy=0.999845	cross-entropy=0.000477
+Epoch[49] Train-accuracy=1.000000
+Epoch[49] Train-cross-entropy=0.000472
+Epoch[49] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0050.params"
+Epoch[49] Validation-accuracy=0.710938
+Epoch[49] Validation-cross-entropy=2.698817
+Update[5266]: Change learning rate to 4.00000e-05
+Epoch[50] Batch [100]	Speed: 623.52 samples/sec	accuracy=1.000000	cross-entropy=0.000277
+Epoch[50] Train-accuracy=1.000000
+Epoch[50] Train-cross-entropy=0.000087
+Epoch[50] Time cost=10.509
+Saved checkpoint to "output/resnet-18/resnet-18-0051.params"
+Epoch[50] Validation-accuracy=0.705966
+Epoch[50] Validation-cross-entropy=2.797133
+Epoch[51] Batch [100]	Speed: 628.53 samples/sec	accuracy=1.000000	cross-entropy=0.000223
+Epoch[51] Train-accuracy=1.000000
+Epoch[51] Train-cross-entropy=0.000139
+Epoch[51] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0052.params"
+Epoch[51] Validation-accuracy=0.704427
+Epoch[51] Validation-cross-entropy=2.771749
+Epoch[52] Batch [100]	Speed: 628.44 samples/sec	accuracy=1.000000	cross-entropy=0.000224
+Epoch[52] Train-accuracy=1.000000
+Epoch[52] Train-cross-entropy=0.000107
+Epoch[52] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0053.params"
+Epoch[52] Validation-accuracy=0.697443
+Epoch[52] Validation-cross-entropy=2.958897
+Epoch[53] Batch [100]	Speed: 629.35 samples/sec	accuracy=1.000000	cross-entropy=0.000207
+Epoch[53] Train-accuracy=1.000000
+Epoch[53] Train-cross-entropy=0.000115
+Epoch[53] Time cost=10.515
+Saved checkpoint to "output/resnet-18/resnet-18-0054.params"
+Epoch[53] Validation-accuracy=0.705729
+Epoch[53] Validation-cross-entropy=2.731541
+Epoch[54] Batch [100]	Speed: 629.33 samples/sec	accuracy=1.000000	cross-entropy=0.000296
+Epoch[54] Train-accuracy=1.000000
+Epoch[54] Train-cross-entropy=0.000235
+Epoch[54] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0055.params"
+Epoch[54] Validation-accuracy=0.713068
+Epoch[54] Validation-cross-entropy=2.723663
+Epoch[55] Batch [100]	Speed: 629.25 samples/sec	accuracy=1.000000	cross-entropy=0.000217
+Epoch[55] Train-accuracy=1.000000
+Epoch[55] Train-cross-entropy=0.000165
+Epoch[55] Time cost=10.415
+Saved checkpoint to "output/resnet-18/resnet-18-0056.params"
+Epoch[55] Validation-accuracy=0.697917
+Epoch[55] Validation-cross-entropy=2.874207
+Epoch[56] Batch [100]	Speed: 628.26 samples/sec	accuracy=1.000000	cross-entropy=0.000259
+Epoch[56] Train-accuracy=1.000000
+Epoch[56] Train-cross-entropy=0.000091
+Epoch[56] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0057.params"
+Epoch[56] Validation-accuracy=0.704545
+Epoch[56] Validation-cross-entropy=2.826615
+Epoch[57] Batch [100]	Speed: 628.67 samples/sec	accuracy=1.000000	cross-entropy=0.000209
+Epoch[57] Train-accuracy=1.000000
+Epoch[57] Train-cross-entropy=0.000066
+Epoch[57] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0058.params"
+Epoch[57] Validation-accuracy=0.704427
+Epoch[57] Validation-cross-entropy=2.790990
+Epoch[58] Batch [100]	Speed: 628.34 samples/sec	accuracy=1.000000	cross-entropy=0.000315
+Epoch[58] Train-accuracy=1.000000
+Epoch[58] Train-cross-entropy=0.000051
+Epoch[58] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0059.params"
+Epoch[58] Validation-accuracy=0.707386
+Epoch[58] Validation-cross-entropy=2.817799
+Epoch[59] Batch [100]	Speed: 628.65 samples/sec	accuracy=1.000000	cross-entropy=0.000271
+Epoch[59] Train-accuracy=1.000000
+Epoch[59] Train-cross-entropy=0.000229
+Epoch[59] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0060.params"
+Epoch[59] Validation-accuracy=0.704427
+Epoch[59] Validation-cross-entropy=2.813657
+Epoch[60] Batch [100]	Speed: 628.77 samples/sec	accuracy=1.000000	cross-entropy=0.000254
+Epoch[60] Train-accuracy=1.000000
+Epoch[60] Train-cross-entropy=0.000079
+Epoch[60] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0061.params"
+Epoch[60] Validation-accuracy=0.713068
+Epoch[60] Validation-cross-entropy=2.669009
+Epoch[61] Batch [100]	Speed: 628.84 samples/sec	accuracy=1.000000	cross-entropy=0.000450
+Epoch[61] Train-accuracy=1.000000
+Epoch[61] Train-cross-entropy=0.000057
+Epoch[61] Time cost=10.421
+Saved checkpoint to "output/resnet-18/resnet-18-0062.params"
+Epoch[61] Validation-accuracy=0.708333
+Epoch[61] Validation-cross-entropy=2.736775
+Epoch[62] Batch [100]	Speed: 628.35 samples/sec	accuracy=1.000000	cross-entropy=0.000178
+Epoch[62] Train-accuracy=1.000000
+Epoch[62] Train-cross-entropy=0.000377
+Epoch[62] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0063.params"
+Epoch[62] Validation-accuracy=0.710227
+Epoch[62] Validation-cross-entropy=2.708673
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.05, max_random_contrast=0.0, max_rotate_angle=0, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=100, num_examples=22500, period=100, random_mirror=0, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 634.07 samples/sec	accuracy=0.905167	cross-entropy=0.382015
+Epoch[0] Train-accuracy=0.947917
+Epoch[0] Train-cross-entropy=0.124784
+Epoch[0] Time cost=11.121
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.791667
+Epoch[0] Validation-cross-entropy=0.604950
+Epoch[1] Batch [100]	Speed: 634.86 samples/sec	accuracy=0.960551	cross-entropy=0.097780
+Epoch[1] Train-accuracy=0.963542
+Epoch[1] Train-cross-entropy=0.072820
+Epoch[1] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.791193
+Epoch[1] Validation-cross-entropy=0.716031
+Epoch[2] Batch [100]	Speed: 632.76 samples/sec	accuracy=0.967976	cross-entropy=0.089288
+Epoch[2] Train-accuracy=0.953125
+Epoch[2] Train-cross-entropy=0.217545
+Epoch[2] Time cost=10.358
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.714844
+Epoch[2] Validation-cross-entropy=1.234061
+Epoch[3] Batch [100]	Speed: 632.78 samples/sec	accuracy=0.974010	cross-entropy=0.071901
+Epoch[3] Train-accuracy=0.968750
+Epoch[3] Train-cross-entropy=0.089365
+Epoch[3] Time cost=10.459
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.677557
+Epoch[3] Validation-cross-entropy=1.395329
+Epoch[4] Batch [100]	Speed: 630.81 samples/sec	accuracy=0.970452	cross-entropy=0.075439
+Epoch[4] Train-accuracy=0.992188
+Epoch[4] Train-cross-entropy=0.031527
+Epoch[4] Time cost=10.390
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.656250
+Epoch[4] Validation-cross-entropy=1.461350
+Epoch[5] Batch [100]	Speed: 631.41 samples/sec	accuracy=0.970761	cross-entropy=0.070037
+Epoch[5] Train-accuracy=0.984375
+Epoch[5] Train-cross-entropy=0.050555
+Epoch[5] Time cost=10.479
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.643466
+Epoch[5] Validation-cross-entropy=1.650710
+Epoch[6] Batch [100]	Speed: 630.22 samples/sec	accuracy=0.976176	cross-entropy=0.061371
+Epoch[6] Train-accuracy=0.992188
+Epoch[6] Train-cross-entropy=0.020329
+Epoch[6] Time cost=10.398
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.638021
+Epoch[6] Validation-cross-entropy=1.944157
+Epoch[7] Batch [100]	Speed: 630.79 samples/sec	accuracy=0.979734	cross-entropy=0.055293
+Epoch[7] Train-accuracy=0.973958
+Epoch[7] Train-cross-entropy=0.051843
+Epoch[7] Time cost=10.490
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.657670
+Epoch[7] Validation-cross-entropy=1.491145
+Epoch[8] Batch [100]	Speed: 630.39 samples/sec	accuracy=0.977877	cross-entropy=0.060898
+Epoch[8] Train-accuracy=0.968750
+Epoch[8] Train-cross-entropy=0.079565
+Epoch[8] Time cost=10.396
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.638021
+Epoch[8] Validation-cross-entropy=1.960128
+Epoch[9] Batch [100]	Speed: 630.46 samples/sec	accuracy=0.980817	cross-entropy=0.049678
+Epoch[9] Train-accuracy=0.989583
+Epoch[9] Train-cross-entropy=0.039860
+Epoch[9] Time cost=10.497
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.660511
+Epoch[9] Validation-cross-entropy=2.082967
+Epoch[10] Batch [100]	Speed: 629.94 samples/sec	accuracy=0.981281	cross-entropy=0.045909
+Epoch[10] Train-accuracy=0.994792
+Epoch[10] Train-cross-entropy=0.015979
+Epoch[10] Time cost=10.505
+Saved checkpoint to "output/resnet-18/resnet-18-0011.params"
+Epoch[10] Validation-accuracy=0.701823
+Epoch[10] Validation-cross-entropy=2.005689
+Epoch[11] Batch [100]	Speed: 629.86 samples/sec	accuracy=0.987624	cross-entropy=0.038124
+Epoch[11] Train-accuracy=0.992188
+Epoch[11] Train-cross-entropy=0.023596
+Epoch[11] Time cost=10.404
+Saved checkpoint to "output/resnet-18/resnet-18-0012.params"
+Epoch[11] Validation-accuracy=0.657670
+Epoch[11] Validation-cross-entropy=2.232571
+Epoch[12] Batch [100]	Speed: 630.42 samples/sec	accuracy=0.986541	cross-entropy=0.035545
+Epoch[12] Train-accuracy=0.979167
+Epoch[12] Train-cross-entropy=0.065022
+Epoch[12] Time cost=10.497
+Saved checkpoint to "output/resnet-18/resnet-18-0013.params"
+Epoch[12] Validation-accuracy=0.662760
+Epoch[12] Validation-cross-entropy=2.691198
+Epoch[13] Batch [100]	Speed: 630.83 samples/sec	accuracy=0.986850	cross-entropy=0.036564
+Epoch[13] Train-accuracy=0.976562
+Epoch[13] Train-cross-entropy=0.083951
+Epoch[13] Time cost=10.389
+Saved checkpoint to "output/resnet-18/resnet-18-0014.params"
+Epoch[13] Validation-accuracy=0.610795
+Epoch[13] Validation-cross-entropy=3.303608
+Epoch[14] Batch [100]	Speed: 629.89 samples/sec	accuracy=0.987469	cross-entropy=0.031412
+Epoch[14] Train-accuracy=0.989583
+Epoch[14] Train-cross-entropy=0.020484
+Epoch[14] Time cost=10.506
+Saved checkpoint to "output/resnet-18/resnet-18-0015.params"
+Epoch[14] Validation-accuracy=0.621094
+Epoch[14] Validation-cross-entropy=3.351089
+Epoch[15] Batch [100]	Speed: 629.40 samples/sec	accuracy=0.984839	cross-entropy=0.037672
+Epoch[15] Train-accuracy=0.992188
+Epoch[15] Train-cross-entropy=0.027213
+Epoch[15] Time cost=10.413
+Saved checkpoint to "output/resnet-18/resnet-18-0016.params"
+Epoch[15] Validation-accuracy=0.723011
+Epoch[15] Validation-cross-entropy=2.209887
+Update[1756]: Change learning rate to 1.00000e-02
+Epoch[16] Batch [100]	Speed: 629.83 samples/sec	accuracy=0.988707	cross-entropy=0.028653
+Epoch[16] Train-accuracy=0.994792
+Epoch[16] Train-cross-entropy=0.021896
+Epoch[16] Time cost=10.505
+Saved checkpoint to "output/resnet-18/resnet-18-0017.params"
+Epoch[16] Validation-accuracy=0.709635
+Epoch[16] Validation-cross-entropy=2.265416
+Epoch[17] Batch [100]	Speed: 628.31 samples/sec	accuracy=0.994431	cross-entropy=0.016455
+Epoch[17] Train-accuracy=0.984375
+Epoch[17] Train-cross-entropy=0.016125
+Epoch[17] Time cost=10.431
+Saved checkpoint to "output/resnet-18/resnet-18-0018.params"
+Epoch[17] Validation-accuracy=0.683239
+Epoch[17] Validation-cross-entropy=3.008011
+Epoch[18] Batch [100]	Speed: 629.72 samples/sec	accuracy=0.998298	cross-entropy=0.007993
+Epoch[18] Train-accuracy=1.000000
+Epoch[18] Train-cross-entropy=0.002087
+Epoch[18] Time cost=10.509
+Saved checkpoint to "output/resnet-18/resnet-18-0019.params"
+Epoch[18] Validation-accuracy=0.674479
+Epoch[18] Validation-cross-entropy=3.621798
+Epoch[19] Batch [100]	Speed: 629.66 samples/sec	accuracy=0.999072	cross-entropy=0.004944
+Epoch[19] Train-accuracy=1.000000
+Epoch[19] Train-cross-entropy=0.003757
+Epoch[19] Time cost=10.409
+Saved checkpoint to "output/resnet-18/resnet-18-0020.params"
+Epoch[19] Validation-accuracy=0.654830
+Epoch[19] Validation-cross-entropy=4.183510
+Epoch[20] Batch [100]	Speed: 630.43 samples/sec	accuracy=0.999845	cross-entropy=0.003022
+Epoch[20] Train-accuracy=1.000000
+Epoch[20] Train-cross-entropy=0.001061
+Epoch[20] Time cost=10.497
+Saved checkpoint to "output/resnet-18/resnet-18-0021.params"
+Epoch[20] Validation-accuracy=0.662760
+Epoch[20] Validation-cross-entropy=4.224591
+Epoch[21] Batch [100]	Speed: 628.86 samples/sec	accuracy=0.999845	cross-entropy=0.002206
+Epoch[21] Train-accuracy=1.000000
+Epoch[21] Train-cross-entropy=0.004422
+Epoch[21] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0022.params"
+Epoch[21] Validation-accuracy=0.670455
+Epoch[21] Validation-cross-entropy=4.273149
+Epoch[22] Batch [100]	Speed: 629.53 samples/sec	accuracy=0.999691	cross-entropy=0.002455
+Epoch[22] Train-accuracy=1.000000
+Epoch[22] Train-cross-entropy=0.001382
+Epoch[22] Time cost=10.412
+Saved checkpoint to "output/resnet-18/resnet-18-0023.params"
+Epoch[22] Validation-accuracy=0.670573
+Epoch[22] Validation-cross-entropy=4.265667
+Epoch[23] Batch [100]	Speed: 630.00 samples/sec	accuracy=0.999845	cross-entropy=0.001670
+Epoch[23] Train-accuracy=1.000000
+Epoch[23] Train-cross-entropy=0.001331
+Epoch[23] Time cost=10.504
+Saved checkpoint to "output/resnet-18/resnet-18-0024.params"
+Epoch[23] Validation-accuracy=0.656250
+Epoch[23] Validation-cross-entropy=4.872892
+Epoch[24] Batch [100]	Speed: 630.60 samples/sec	accuracy=0.999691	cross-entropy=0.001925
+Epoch[24] Train-accuracy=1.000000
+Epoch[24] Train-cross-entropy=0.000631
+Epoch[24] Time cost=10.393
+Saved checkpoint to "output/resnet-18/resnet-18-0025.params"
+Epoch[24] Validation-accuracy=0.657552
+Epoch[24] Validation-cross-entropy=4.684678
+Epoch[25] Batch [100]	Speed: 629.97 samples/sec	accuracy=0.999536	cross-entropy=0.002456
+Epoch[25] Train-accuracy=1.000000
+Epoch[25] Train-cross-entropy=0.000539
+Epoch[25] Time cost=10.504
+Saved checkpoint to "output/resnet-18/resnet-18-0026.params"
+Epoch[25] Validation-accuracy=0.640625
+Epoch[25] Validation-cross-entropy=5.276963
+Epoch[26] Batch [100]	Speed: 628.11 samples/sec	accuracy=1.000000	cross-entropy=0.001045
+Epoch[26] Train-accuracy=1.000000
+Epoch[26] Train-cross-entropy=0.000603
+Epoch[26] Time cost=10.433
+Saved checkpoint to "output/resnet-18/resnet-18-0027.params"
+Epoch[26] Validation-accuracy=0.661458
+Epoch[26] Validation-cross-entropy=4.686774
+Epoch[27] Batch [100]	Speed: 630.29 samples/sec	accuracy=0.999691	cross-entropy=0.001146
+Epoch[27] Train-accuracy=1.000000
+Epoch[27] Train-cross-entropy=0.000361
+Epoch[27] Time cost=10.498
+Saved checkpoint to "output/resnet-18/resnet-18-0028.params"
+Epoch[27] Validation-accuracy=0.653409
+Epoch[27] Validation-cross-entropy=4.926937
+Epoch[28] Batch [100]	Speed: 629.29 samples/sec	accuracy=1.000000	cross-entropy=0.000953
+Epoch[28] Train-accuracy=1.000000
+Epoch[28] Train-cross-entropy=0.002160
+Epoch[28] Time cost=10.415
+Saved checkpoint to "output/resnet-18/resnet-18-0029.params"
+Epoch[28] Validation-accuracy=0.660156
+Epoch[28] Validation-cross-entropy=4.992776
+Epoch[29] Batch [100]	Speed: 629.63 samples/sec	accuracy=1.000000	cross-entropy=0.000853
+Epoch[29] Train-accuracy=1.000000
+Epoch[29] Train-cross-entropy=0.001809
+Epoch[29] Time cost=10.509
+Saved checkpoint to "output/resnet-18/resnet-18-0030.params"
+Epoch[29] Validation-accuracy=0.657670
+Epoch[29] Validation-cross-entropy=5.064754
+Epoch[30] Batch [100]	Speed: 630.30 samples/sec	accuracy=0.999845	cross-entropy=0.000855
+Epoch[30] Train-accuracy=1.000000
+Epoch[30] Train-cross-entropy=0.002087
+Epoch[30] Time cost=10.398
+Saved checkpoint to "output/resnet-18/resnet-18-0031.params"
+Epoch[30] Validation-accuracy=0.652344
+Epoch[30] Validation-cross-entropy=5.170633
+Epoch[31] Batch [100]	Speed: 630.11 samples/sec	accuracy=1.000000	cross-entropy=0.000657
+Epoch[31] Train-accuracy=1.000000
+Epoch[31] Train-cross-entropy=0.000327
+Epoch[31] Time cost=10.502
+Saved checkpoint to "output/resnet-18/resnet-18-0032.params"
+Epoch[31] Validation-accuracy=0.670573
+Epoch[31] Validation-cross-entropy=4.983684
+Epoch[32] Batch [100]	Speed: 629.57 samples/sec	accuracy=0.999845	cross-entropy=0.000901
+Epoch[32] Train-accuracy=1.000000
+Epoch[32] Train-cross-entropy=0.000603
+Epoch[32] Time cost=10.512
+Saved checkpoint to "output/resnet-18/resnet-18-0033.params"
+Epoch[32] Validation-accuracy=0.646307
+Epoch[32] Validation-cross-entropy=5.536579
+Update[3511]: Change learning rate to 2.00000e-03
+Epoch[33] Batch [100]	Speed: 630.63 samples/sec	accuracy=1.000000	cross-entropy=0.000576
+Epoch[33] Train-accuracy=1.000000
+Epoch[33] Train-cross-entropy=0.001175
+Epoch[33] Time cost=10.391
+Saved checkpoint to "output/resnet-18/resnet-18-0034.params"
+Epoch[33] Validation-accuracy=0.669271
+Epoch[33] Validation-cross-entropy=5.146341
+Epoch[34] Batch [100]	Speed: 629.93 samples/sec	accuracy=1.000000	cross-entropy=0.000452
+Epoch[34] Train-accuracy=1.000000
+Epoch[34] Train-cross-entropy=0.000216
+Epoch[34] Time cost=10.507
+Saved checkpoint to "output/resnet-18/resnet-18-0035.params"
+Epoch[34] Validation-accuracy=0.661932
+Epoch[34] Validation-cross-entropy=5.211224
+Epoch[35] Batch [100]	Speed: 629.88 samples/sec	accuracy=1.000000	cross-entropy=0.000349
+Epoch[35] Train-accuracy=1.000000
+Epoch[35] Train-cross-entropy=0.000203
+Epoch[35] Time cost=10.405
+Saved checkpoint to "output/resnet-18/resnet-18-0036.params"
+Epoch[35] Validation-accuracy=0.666667
+Epoch[35] Validation-cross-entropy=5.171189
+Epoch[36] Batch [100]	Speed: 629.24 samples/sec	accuracy=1.000000	cross-entropy=0.000314
+Epoch[36] Train-accuracy=1.000000
+Epoch[36] Train-cross-entropy=0.000223
+Epoch[36] Time cost=10.515
+Saved checkpoint to "output/resnet-18/resnet-18-0037.params"
+Epoch[36] Validation-accuracy=0.654830
+Epoch[36] Validation-cross-entropy=5.354993
+Epoch[37] Batch [100]	Speed: 629.48 samples/sec	accuracy=0.999845	cross-entropy=0.000611
+Epoch[37] Train-accuracy=1.000000
+Epoch[37] Train-cross-entropy=0.000285
+Epoch[37] Time cost=10.412
+Saved checkpoint to "output/resnet-18/resnet-18-0038.params"
+Epoch[37] Validation-accuracy=0.662760
+Epoch[37] Validation-cross-entropy=5.236979
+Epoch[38] Batch [100]	Speed: 629.99 samples/sec	accuracy=1.000000	cross-entropy=0.000323
+Epoch[38] Train-accuracy=1.000000
+Epoch[38] Train-cross-entropy=0.000205
+Epoch[38] Time cost=10.504
+Saved checkpoint to "output/resnet-18/resnet-18-0039.params"
+Epoch[38] Validation-accuracy=0.666193
+Epoch[38] Validation-cross-entropy=5.268670
+Epoch[39] Batch [100]	Speed: 630.11 samples/sec	accuracy=1.000000	cross-entropy=0.000288
+Epoch[39] Train-accuracy=1.000000
+Epoch[39] Train-cross-entropy=0.000624
+Epoch[39] Time cost=10.401
+Saved checkpoint to "output/resnet-18/resnet-18-0040.params"
+Epoch[39] Validation-accuracy=0.660156
+Epoch[39] Validation-cross-entropy=5.260103
+Epoch[40] Batch [100]	Speed: 630.08 samples/sec	accuracy=1.000000	cross-entropy=0.000314
+Epoch[40] Train-accuracy=1.000000
+Epoch[40] Train-cross-entropy=0.000304
+Epoch[40] Time cost=10.503
+Saved checkpoint to "output/resnet-18/resnet-18-0041.params"
+Epoch[40] Validation-accuracy=0.653409
+Epoch[40] Validation-cross-entropy=5.418334
+Epoch[41] Batch [100]	Speed: 628.34 samples/sec	accuracy=0.999845	cross-entropy=0.000641
+Epoch[41] Train-accuracy=1.000000
+Epoch[41] Train-cross-entropy=0.000141
+Epoch[41] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0042.params"
+Epoch[41] Validation-accuracy=0.678385
+Epoch[41] Validation-cross-entropy=4.951127
+Epoch[42] Batch [100]	Speed: 629.40 samples/sec	accuracy=1.000000	cross-entropy=0.000387
+Epoch[42] Train-accuracy=1.000000
+Epoch[42] Train-cross-entropy=0.000332
+Epoch[42] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0043.params"
+Epoch[42] Validation-accuracy=0.650568
+Epoch[42] Validation-cross-entropy=5.536931
+Epoch[43] Batch [100]	Speed: 629.28 samples/sec	accuracy=1.000000	cross-entropy=0.000462
+Epoch[43] Train-accuracy=1.000000
+Epoch[43] Train-cross-entropy=0.000090
+Epoch[43] Time cost=10.517
+Saved checkpoint to "output/resnet-18/resnet-18-0044.params"
+Epoch[43] Validation-accuracy=0.664062
+Epoch[43] Validation-cross-entropy=5.270973
+Epoch[44] Batch [100]	Speed: 629.23 samples/sec	accuracy=1.000000	cross-entropy=0.000364
+Epoch[44] Train-accuracy=1.000000
+Epoch[44] Train-cross-entropy=0.000305
+Epoch[44] Time cost=10.415
+Saved checkpoint to "output/resnet-18/resnet-18-0045.params"
+Epoch[44] Validation-accuracy=0.651989
+Epoch[44] Validation-cross-entropy=5.575554
+Epoch[45] Batch [100]	Speed: 629.86 samples/sec	accuracy=0.999845	cross-entropy=0.000445
+Epoch[45] Train-accuracy=1.000000
+Epoch[45] Train-cross-entropy=0.000269
+Epoch[45] Time cost=10.507
+Saved checkpoint to "output/resnet-18/resnet-18-0046.params"
+Epoch[45] Validation-accuracy=0.662760
+Epoch[45] Validation-cross-entropy=5.250909
+Epoch[46] Batch [100]	Speed: 629.89 samples/sec	accuracy=1.000000	cross-entropy=0.000365
+Epoch[46] Train-accuracy=1.000000
+Epoch[46] Train-cross-entropy=0.000418
+Epoch[46] Time cost=10.406
+Saved checkpoint to "output/resnet-18/resnet-18-0047.params"
+Epoch[46] Validation-accuracy=0.666193
+Epoch[46] Validation-cross-entropy=5.349406
+Epoch[47] Batch [100]	Speed: 629.74 samples/sec	accuracy=1.000000	cross-entropy=0.000213
+Epoch[47] Train-accuracy=1.000000
+Epoch[47] Train-cross-entropy=0.000207
+Epoch[47] Time cost=10.510
+Saved checkpoint to "output/resnet-18/resnet-18-0048.params"
+Epoch[47] Validation-accuracy=0.656250
+Epoch[47] Validation-cross-entropy=5.345186
+Epoch[48] Batch [100]	Speed: 629.11 samples/sec	accuracy=1.000000	cross-entropy=0.000288
+Epoch[48] Train-accuracy=1.000000
+Epoch[48] Train-cross-entropy=0.000041
+Epoch[48] Time cost=10.416
+Saved checkpoint to "output/resnet-18/resnet-18-0049.params"
+Epoch[48] Validation-accuracy=0.664773
+Epoch[48] Validation-cross-entropy=5.392689
+Epoch[49] Batch [100]	Speed: 629.73 samples/sec	accuracy=0.999845	cross-entropy=0.000615
+Epoch[49] Train-accuracy=1.000000
+Epoch[49] Train-cross-entropy=0.001050
+Epoch[49] Time cost=10.510
+Saved checkpoint to "output/resnet-18/resnet-18-0050.params"
+Epoch[49] Validation-accuracy=0.667969
+Epoch[49] Validation-cross-entropy=5.203980
+Update[5266]: Change learning rate to 4.00000e-04
+Epoch[50] Batch [100]	Speed: 629.33 samples/sec	accuracy=1.000000	cross-entropy=0.000332
+Epoch[50] Train-accuracy=1.000000
+Epoch[50] Train-cross-entropy=0.000178
+Epoch[50] Time cost=10.412
+Saved checkpoint to "output/resnet-18/resnet-18-0051.params"
+Epoch[50] Validation-accuracy=0.654830
+Epoch[50] Validation-cross-entropy=5.553377
+Epoch[51] Batch [100]	Speed: 622.67 samples/sec	accuracy=1.000000	cross-entropy=0.000350
+Epoch[51] Train-accuracy=1.000000
+Epoch[51] Train-cross-entropy=0.000258
+Epoch[51] Time cost=10.624
+Saved checkpoint to "output/resnet-18/resnet-18-0052.params"
+Epoch[51] Validation-accuracy=0.654948
+Epoch[51] Validation-cross-entropy=5.414820
+Epoch[52] Batch [100]	Speed: 629.99 samples/sec	accuracy=1.000000	cross-entropy=0.000376
+Epoch[52] Train-accuracy=1.000000
+Epoch[52] Train-cross-entropy=0.000230
+Epoch[52] Time cost=10.403
+Saved checkpoint to "output/resnet-18/resnet-18-0053.params"
+Epoch[52] Validation-accuracy=0.651989
+Epoch[52] Validation-cross-entropy=5.514915
+Epoch[53] Batch [100]	Speed: 629.37 samples/sec	accuracy=1.000000	cross-entropy=0.000360
+Epoch[53] Train-accuracy=1.000000
+Epoch[53] Train-cross-entropy=0.000219
+Epoch[53] Time cost=10.514
+Saved checkpoint to "output/resnet-18/resnet-18-0054.params"
+Epoch[53] Validation-accuracy=0.664062
+Epoch[53] Validation-cross-entropy=5.311976
+Epoch[54] Batch [100]	Speed: 629.48 samples/sec	accuracy=1.000000	cross-entropy=0.000233
+Epoch[54] Train-accuracy=1.000000
+Epoch[54] Train-cross-entropy=0.000222
+Epoch[54] Time cost=10.514
+Saved checkpoint to "output/resnet-18/resnet-18-0055.params"
+Epoch[54] Validation-accuracy=0.670455
+Epoch[54] Validation-cross-entropy=5.297661
+Epoch[55] Batch [100]	Speed: 629.95 samples/sec	accuracy=0.999845	cross-entropy=0.000442
+Epoch[55] Train-accuracy=1.000000
+Epoch[55] Train-cross-entropy=0.000117
+Epoch[55] Time cost=10.405
+Saved checkpoint to "output/resnet-18/resnet-18-0056.params"
+Epoch[55] Validation-accuracy=0.661458
+Epoch[55] Validation-cross-entropy=5.287882
+Epoch[56] Batch [100]	Speed: 629.54 samples/sec	accuracy=1.000000	cross-entropy=0.000387
+Epoch[56] Train-accuracy=1.000000
+Epoch[56] Train-cross-entropy=0.000150
+Epoch[56] Time cost=10.510
+Saved checkpoint to "output/resnet-18/resnet-18-0057.params"
+Epoch[56] Validation-accuracy=0.660511
+Epoch[56] Validation-cross-entropy=5.395162
+Epoch[57] Batch [100]	Speed: 629.40 samples/sec	accuracy=1.000000	cross-entropy=0.000266
+Epoch[57] Train-accuracy=1.000000
+Epoch[57] Train-cross-entropy=0.000120
+Epoch[57] Time cost=10.412
+Saved checkpoint to "output/resnet-18/resnet-18-0058.params"
+Epoch[57] Validation-accuracy=0.652344
+Epoch[57] Validation-cross-entropy=5.482178
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.005, max_random_contrast=0.0, max_rotate_angle=0, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=100, num_examples=22500, period=100, random_mirror=0, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 627.32 samples/sec	accuracy=0.905012	cross-entropy=0.228585
+Epoch[0] Train-accuracy=0.973958
+Epoch[0] Train-cross-entropy=0.100652
+Epoch[0] Time cost=11.296
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.790365
+Epoch[0] Validation-cross-entropy=0.755821
+Epoch[1] Batch [100]	Speed: 628.89 samples/sec	accuracy=0.972927	cross-entropy=0.067051
+Epoch[1] Train-accuracy=0.994792
+Epoch[1] Train-cross-entropy=0.037088
+Epoch[1] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.735795
+Epoch[1] Validation-cross-entropy=1.033333
+Epoch[2] Batch [100]	Speed: 630.09 samples/sec	accuracy=0.984839	cross-entropy=0.041344
+Epoch[2] Train-accuracy=0.968750
+Epoch[2] Train-cross-entropy=0.069848
+Epoch[2] Time cost=10.401
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.692708
+Epoch[2] Validation-cross-entropy=1.601010
+Epoch[3] Batch [100]	Speed: 629.25 samples/sec	accuracy=0.992729	cross-entropy=0.021103
+Epoch[3] Train-accuracy=1.000000
+Epoch[3] Train-cross-entropy=0.009607
+Epoch[3] Time cost=10.517
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.691761
+Epoch[3] Validation-cross-entropy=1.915267
+Epoch[4] Batch [100]	Speed: 628.84 samples/sec	accuracy=0.996287	cross-entropy=0.013623
+Epoch[4] Train-accuracy=1.000000
+Epoch[4] Train-cross-entropy=0.009376
+Epoch[4] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.696615
+Epoch[4] Validation-cross-entropy=1.937354
+Epoch[5] Batch [100]	Speed: 628.52 samples/sec	accuracy=0.994740	cross-entropy=0.016337
+Epoch[5] Train-accuracy=1.000000
+Epoch[5] Train-cross-entropy=0.008461
+Epoch[5] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.669034
+Epoch[5] Validation-cross-entropy=2.216759
+Epoch[6] Batch [100]	Speed: 628.58 samples/sec	accuracy=0.999072	cross-entropy=0.005121
+Epoch[6] Train-accuracy=1.000000
+Epoch[6] Train-cross-entropy=0.003172
+Epoch[6] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.692708
+Epoch[6] Validation-cross-entropy=2.376293
+Epoch[7] Batch [100]	Speed: 622.75 samples/sec	accuracy=0.999381	cross-entropy=0.003256
+Epoch[7] Train-accuracy=1.000000
+Epoch[7] Train-cross-entropy=0.001320
+Epoch[7] Time cost=10.623
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.701705
+Epoch[7] Validation-cross-entropy=2.293040
+Epoch[8] Batch [100]	Speed: 629.64 samples/sec	accuracy=0.999536	cross-entropy=0.003452
+Epoch[8] Train-accuracy=1.000000
+Epoch[8] Train-cross-entropy=0.002372
+Epoch[8] Time cost=10.410
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.703125
+Epoch[8] Validation-cross-entropy=2.346894
+Epoch[9] Batch [100]	Speed: 628.93 samples/sec	accuracy=0.999226	cross-entropy=0.003362
+Epoch[9] Train-accuracy=1.000000
+Epoch[9] Train-cross-entropy=0.000690
+Epoch[9] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.731534
+Epoch[9] Validation-cross-entropy=1.951859
+Epoch[10] Batch [100]	Speed: 628.04 samples/sec	accuracy=0.999691	cross-entropy=0.002172
+Epoch[10] Train-accuracy=1.000000
+Epoch[10] Train-cross-entropy=0.001309
+Epoch[10] Time cost=10.536
+Saved checkpoint to "output/resnet-18/resnet-18-0011.params"
+Epoch[10] Validation-accuracy=0.712240
+Epoch[10] Validation-cross-entropy=2.341639
+Epoch[11] Batch [100]	Speed: 627.94 samples/sec	accuracy=1.000000	cross-entropy=0.000981
+Epoch[11] Train-accuracy=1.000000
+Epoch[11] Train-cross-entropy=0.000243
+Epoch[11] Time cost=10.438
+Saved checkpoint to "output/resnet-18/resnet-18-0012.params"
+Epoch[11] Validation-accuracy=0.704545
+Epoch[11] Validation-cross-entropy=2.527330
+Epoch[12] Batch [100]	Speed: 629.09 samples/sec	accuracy=0.999845	cross-entropy=0.000850
+Epoch[12] Train-accuracy=0.989583
+Epoch[12] Train-cross-entropy=0.037304
+Epoch[12] Time cost=10.519
+Saved checkpoint to "output/resnet-18/resnet-18-0013.params"
+Epoch[12] Validation-accuracy=0.705729
+Epoch[12] Validation-cross-entropy=2.501809
+Epoch[13] Batch [100]	Speed: 628.33 samples/sec	accuracy=0.999691	cross-entropy=0.002174
+Epoch[13] Train-accuracy=1.000000
+Epoch[13] Train-cross-entropy=0.000348
+Epoch[13] Time cost=10.431
+Saved checkpoint to "output/resnet-18/resnet-18-0014.params"
+Epoch[13] Validation-accuracy=0.693182
+Epoch[13] Validation-cross-entropy=2.521142
+Epoch[14] Batch [100]	Speed: 628.62 samples/sec	accuracy=1.000000	cross-entropy=0.000469
+Epoch[14] Train-accuracy=1.000000
+Epoch[14] Train-cross-entropy=0.000298
+Epoch[14] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0015.params"
+Epoch[14] Validation-accuracy=0.701823
+Epoch[14] Validation-cross-entropy=2.496772
+Epoch[15] Batch [100]	Speed: 628.16 samples/sec	accuracy=1.000000	cross-entropy=0.000629
+Epoch[15] Train-accuracy=1.000000
+Epoch[15] Train-cross-entropy=0.000240
+Epoch[15] Time cost=10.434
+Saved checkpoint to "output/resnet-18/resnet-18-0016.params"
+Epoch[15] Validation-accuracy=0.688920
+Epoch[15] Validation-cross-entropy=2.714400
+Update[1756]: Change learning rate to 1.00000e-03
+Epoch[16] Batch [100]	Speed: 628.08 samples/sec	accuracy=1.000000	cross-entropy=0.000424
+Epoch[16] Train-accuracy=1.000000
+Epoch[16] Train-cross-entropy=0.000092
+Epoch[16] Time cost=10.536
+Saved checkpoint to "output/resnet-18/resnet-18-0017.params"
+Epoch[16] Validation-accuracy=0.688802
+Epoch[16] Validation-cross-entropy=2.742815
+Epoch[17] Batch [100]	Speed: 627.80 samples/sec	accuracy=1.000000	cross-entropy=0.000575
+Epoch[17] Train-accuracy=1.000000
+Epoch[17] Train-cross-entropy=0.002041
+Epoch[17] Time cost=10.437
+Saved checkpoint to "output/resnet-18/resnet-18-0018.params"
+Epoch[17] Validation-accuracy=0.690341
+Epoch[17] Validation-cross-entropy=2.755389
+Epoch[18] Batch [100]	Speed: 628.27 samples/sec	accuracy=1.000000	cross-entropy=0.000671
+Epoch[18] Train-accuracy=1.000000
+Epoch[18] Train-cross-entropy=0.000388
+Epoch[18] Time cost=10.533
+Saved checkpoint to "output/resnet-18/resnet-18-0019.params"
+Epoch[18] Validation-accuracy=0.721354
+Epoch[18] Validation-cross-entropy=2.404421
+Epoch[19] Batch [100]	Speed: 628.41 samples/sec	accuracy=1.000000	cross-entropy=0.000398
+Epoch[19] Train-accuracy=1.000000
+Epoch[19] Train-cross-entropy=0.000226
+Epoch[19] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0020.params"
+Epoch[19] Validation-accuracy=0.694602
+Epoch[19] Validation-cross-entropy=2.726727
+Epoch[20] Batch [100]	Speed: 628.43 samples/sec	accuracy=1.000000	cross-entropy=0.000270
+Epoch[20] Train-accuracy=1.000000
+Epoch[20] Train-cross-entropy=0.000142
+Epoch[20] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0021.params"
+Epoch[20] Validation-accuracy=0.714844
+Epoch[20] Validation-cross-entropy=2.496885
+Epoch[21] Batch [100]	Speed: 628.88 samples/sec	accuracy=1.000000	cross-entropy=0.000311
+Epoch[21] Train-accuracy=1.000000
+Epoch[21] Train-cross-entropy=0.000212
+Epoch[21] Time cost=10.522
+Saved checkpoint to "output/resnet-18/resnet-18-0022.params"
+Epoch[21] Validation-accuracy=0.707386
+Epoch[21] Validation-cross-entropy=2.543713
+Epoch[22] Batch [100]	Speed: 628.81 samples/sec	accuracy=1.000000	cross-entropy=0.000511
+Epoch[22] Train-accuracy=1.000000
+Epoch[22] Train-cross-entropy=0.000081
+Epoch[22] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0023.params"
+Epoch[22] Validation-accuracy=0.696615
+Epoch[22] Validation-cross-entropy=2.671977
+Epoch[23] Batch [100]	Speed: 628.80 samples/sec	accuracy=1.000000	cross-entropy=0.000266
+Epoch[23] Train-accuracy=1.000000
+Epoch[23] Train-cross-entropy=0.000126
+Epoch[23] Time cost=10.523
+Saved checkpoint to "output/resnet-18/resnet-18-0024.params"
+Epoch[23] Validation-accuracy=0.700284
+Epoch[23] Validation-cross-entropy=2.617890
+Epoch[24] Batch [100]	Speed: 628.44 samples/sec	accuracy=1.000000	cross-entropy=0.000384
+Epoch[24] Train-accuracy=1.000000
+Epoch[24] Train-cross-entropy=0.000109
+Epoch[24] Time cost=10.429
+Saved checkpoint to "output/resnet-18/resnet-18-0025.params"
+Epoch[24] Validation-accuracy=0.717448
+Epoch[24] Validation-cross-entropy=2.516750
+Epoch[25] Batch [100]	Speed: 628.90 samples/sec	accuracy=0.999845	cross-entropy=0.000672
+Epoch[25] Train-accuracy=1.000000
+Epoch[25] Train-cross-entropy=0.000116
+Epoch[25] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0026.params"
+Epoch[25] Validation-accuracy=0.696023
+Epoch[25] Validation-cross-entropy=2.755910
+Epoch[26] Batch [100]	Speed: 628.94 samples/sec	accuracy=1.000000	cross-entropy=0.000415
+Epoch[26] Train-accuracy=1.000000
+Epoch[26] Train-cross-entropy=0.000349
+Epoch[26] Time cost=10.421
+Saved checkpoint to "output/resnet-18/resnet-18-0027.params"
+Epoch[26] Validation-accuracy=0.716146
+Epoch[26] Validation-cross-entropy=2.463338
+Epoch[27] Batch [100]	Speed: 628.70 samples/sec	accuracy=1.000000	cross-entropy=0.000302
+Epoch[27] Train-accuracy=1.000000
+Epoch[27] Train-cross-entropy=0.000448
+Epoch[27] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0028.params"
+Epoch[27] Validation-accuracy=0.698864
+Epoch[27] Validation-cross-entropy=2.742949
+Epoch[28] Batch [100]	Speed: 628.19 samples/sec	accuracy=1.000000	cross-entropy=0.000267
+Epoch[28] Train-accuracy=1.000000
+Epoch[28] Train-cross-entropy=0.001438
+Epoch[28] Time cost=10.433
+Saved checkpoint to "output/resnet-18/resnet-18-0029.params"
+Epoch[28] Validation-accuracy=0.729167
+Epoch[28] Validation-cross-entropy=2.276120
+Epoch[29] Batch [100]	Speed: 628.50 samples/sec	accuracy=1.000000	cross-entropy=0.000260
+Epoch[29] Train-accuracy=1.000000
+Epoch[29] Train-cross-entropy=0.000560
+Epoch[29] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0030.params"
+Epoch[29] Validation-accuracy=0.705966
+Epoch[29] Validation-cross-entropy=2.602280
+Epoch[30] Batch [100]	Speed: 628.22 samples/sec	accuracy=1.000000	cross-entropy=0.000330
+Epoch[30] Train-accuracy=1.000000
+Epoch[30] Train-cross-entropy=0.000147
+Epoch[30] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0031.params"
+Epoch[30] Validation-accuracy=0.712240
+Epoch[30] Validation-cross-entropy=2.540323
+Epoch[31] Batch [100]	Speed: 628.70 samples/sec	accuracy=1.000000	cross-entropy=0.000205
+Epoch[31] Train-accuracy=1.000000
+Epoch[31] Train-cross-entropy=0.000069
+Epoch[31] Time cost=10.525
+Saved checkpoint to "output/resnet-18/resnet-18-0032.params"
+Epoch[31] Validation-accuracy=0.705729
+Epoch[31] Validation-cross-entropy=2.597170
+Epoch[32] Batch [100]	Speed: 627.69 samples/sec	accuracy=0.999691	cross-entropy=0.000936
+Epoch[32] Train-accuracy=1.000000
+Epoch[32] Train-cross-entropy=0.000100
+Epoch[32] Time cost=10.541
+Saved checkpoint to "output/resnet-18/resnet-18-0033.params"
+Epoch[32] Validation-accuracy=0.680398
+Epoch[32] Validation-cross-entropy=2.887179
+Update[3511]: Change learning rate to 2.00000e-04
+Epoch[33] Batch [100]	Speed: 628.50 samples/sec	accuracy=1.000000	cross-entropy=0.000536
+Epoch[33] Train-accuracy=1.000000
+Epoch[33] Train-cross-entropy=0.000453
+Epoch[33] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0034.params"
+Epoch[33] Validation-accuracy=0.682292
+Epoch[33] Validation-cross-entropy=2.847917
+Epoch[34] Batch [100]	Speed: 628.20 samples/sec	accuracy=1.000000	cross-entropy=0.000269
+Epoch[34] Train-accuracy=1.000000
+Epoch[34] Train-cross-entropy=0.000038
+Epoch[34] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0035.params"
+Epoch[34] Validation-accuracy=0.688920
+Epoch[34] Validation-cross-entropy=2.855122
+Epoch[35] Batch [100]	Speed: 628.04 samples/sec	accuracy=1.000000	cross-entropy=0.000350
+Epoch[35] Train-accuracy=1.000000
+Epoch[35] Train-cross-entropy=0.000083
+Epoch[35] Time cost=10.434
+Saved checkpoint to "output/resnet-18/resnet-18-0036.params"
+Epoch[35] Validation-accuracy=0.683594
+Epoch[35] Validation-cross-entropy=2.906202
+Epoch[36] Batch [100]	Speed: 628.41 samples/sec	accuracy=1.000000	cross-entropy=0.000267
+Epoch[36] Train-accuracy=1.000000
+Epoch[36] Train-cross-entropy=0.000193
+Epoch[36] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0037.params"
+Epoch[36] Validation-accuracy=0.686080
+Epoch[36] Validation-cross-entropy=2.870278
+Epoch[37] Batch [100]	Speed: 628.04 samples/sec	accuracy=1.000000	cross-entropy=0.000263
+Epoch[37] Train-accuracy=1.000000
+Epoch[37] Train-cross-entropy=0.000150
+Epoch[37] Time cost=10.434
+Saved checkpoint to "output/resnet-18/resnet-18-0038.params"
+Epoch[37] Validation-accuracy=0.700521
+Epoch[37] Validation-cross-entropy=2.679368
+Epoch[38] Batch [100]	Speed: 629.04 samples/sec	accuracy=1.000000	cross-entropy=0.000260
+Epoch[38] Train-accuracy=1.000000
+Epoch[38] Train-cross-entropy=0.000203
+Epoch[38] Time cost=10.519
+Saved checkpoint to "output/resnet-18/resnet-18-0039.params"
+Epoch[38] Validation-accuracy=0.700284
+Epoch[38] Validation-cross-entropy=2.697999
+Epoch[39] Batch [100]	Speed: 629.19 samples/sec	accuracy=1.000000	cross-entropy=0.000208
+Epoch[39] Train-accuracy=1.000000
+Epoch[39] Train-cross-entropy=0.000485
+Epoch[39] Time cost=10.416
+Saved checkpoint to "output/resnet-18/resnet-18-0040.params"
+Epoch[39] Validation-accuracy=0.687500
+Epoch[39] Validation-cross-entropy=2.847559
+Epoch[40] Batch [100]	Speed: 627.98 samples/sec	accuracy=1.000000	cross-entropy=0.000315
+Epoch[40] Train-accuracy=1.000000
+Epoch[40] Train-cross-entropy=0.000081
+Epoch[40] Time cost=10.538
+Saved checkpoint to "output/resnet-18/resnet-18-0041.params"
+Epoch[40] Validation-accuracy=0.680398
+Epoch[40] Validation-cross-entropy=2.967898
+Epoch[41] Batch [100]	Speed: 628.73 samples/sec	accuracy=1.000000	cross-entropy=0.000355
+Epoch[41] Train-accuracy=1.000000
+Epoch[41] Train-cross-entropy=0.000659
+Epoch[41] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0042.params"
+Epoch[41] Validation-accuracy=0.710938
+Epoch[41] Validation-cross-entropy=2.540175
+Epoch[42] Batch [100]	Speed: 629.18 samples/sec	accuracy=0.999691	cross-entropy=0.000765
+Epoch[42] Train-accuracy=1.000000
+Epoch[42] Train-cross-entropy=0.000313
+Epoch[42] Time cost=10.517
+Saved checkpoint to "output/resnet-18/resnet-18-0043.params"
+Epoch[42] Validation-accuracy=0.684659
+Epoch[42] Validation-cross-entropy=2.958719
+Epoch[43] Batch [100]	Speed: 628.80 samples/sec	accuracy=0.999845	cross-entropy=0.000394
+Epoch[43] Train-accuracy=1.000000
+Epoch[43] Train-cross-entropy=0.000072
+Epoch[43] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0044.params"
+Epoch[43] Validation-accuracy=0.701823
+Epoch[43] Validation-cross-entropy=2.660131
+Epoch[44] Batch [100]	Speed: 627.76 samples/sec	accuracy=1.000000	cross-entropy=0.000296
+Epoch[44] Train-accuracy=1.000000
+Epoch[44] Train-cross-entropy=0.000126
+Epoch[44] Time cost=10.438
+Saved checkpoint to "output/resnet-18/resnet-18-0045.params"
+Epoch[44] Validation-accuracy=0.690341
+Epoch[44] Validation-cross-entropy=2.850548
+Epoch[45] Batch [100]	Speed: 628.22 samples/sec	accuracy=1.000000	cross-entropy=0.000252
+Epoch[45] Train-accuracy=1.000000
+Epoch[45] Train-cross-entropy=0.000204
+Epoch[45] Time cost=10.537
+Saved checkpoint to "output/resnet-18/resnet-18-0046.params"
+Epoch[45] Validation-accuracy=0.692708
+Epoch[45] Validation-cross-entropy=2.864053
+Epoch[46] Batch [100]	Speed: 628.33 samples/sec	accuracy=1.000000	cross-entropy=0.000243
+Epoch[46] Train-accuracy=1.000000
+Epoch[46] Train-cross-entropy=0.000197
+Epoch[46] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0047.params"
+Epoch[46] Validation-accuracy=0.704545
+Epoch[46] Validation-cross-entropy=2.570362
+Epoch[47] Batch [100]	Speed: 628.79 samples/sec	accuracy=1.000000	cross-entropy=0.000183
+Epoch[47] Train-accuracy=1.000000
+Epoch[47] Train-cross-entropy=0.000100
+Epoch[47] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0048.params"
+Epoch[47] Validation-accuracy=0.703125
+Epoch[47] Validation-cross-entropy=2.615840
+Epoch[48] Batch [100]	Speed: 628.66 samples/sec	accuracy=1.000000	cross-entropy=0.000269
+Epoch[48] Train-accuracy=1.000000
+Epoch[48] Train-cross-entropy=0.000052
+Epoch[48] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0049.params"
+Epoch[48] Validation-accuracy=0.691761
+Epoch[48] Validation-cross-entropy=2.805198
+Epoch[49] Batch [100]	Speed: 628.69 samples/sec	accuracy=0.999845	cross-entropy=0.000394
+Epoch[49] Train-accuracy=1.000000
+Epoch[49] Train-cross-entropy=0.000713
+Epoch[49] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0050.params"
+Epoch[49] Validation-accuracy=0.701823
+Epoch[49] Validation-cross-entropy=2.662107
+Update[5266]: Change learning rate to 4.00000e-05
+Epoch[50] Batch [100]	Speed: 628.80 samples/sec	accuracy=1.000000	cross-entropy=0.000243
+Epoch[50] Train-accuracy=1.000000
+Epoch[50] Train-cross-entropy=0.000131
+Epoch[50] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0051.params"
+Epoch[50] Validation-accuracy=0.693182
+Epoch[50] Validation-cross-entropy=2.788295
+Epoch[51] Batch [100]	Speed: 627.80 samples/sec	accuracy=1.000000	cross-entropy=0.000288
+Epoch[51] Train-accuracy=1.000000
+Epoch[51] Train-cross-entropy=0.000139
+Epoch[51] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0052.params"
+Epoch[51] Validation-accuracy=0.699219
+Epoch[51] Validation-cross-entropy=2.755795
+Epoch[52] Batch [100]	Speed: 628.32 samples/sec	accuracy=1.000000	cross-entropy=0.000237
+Epoch[52] Train-accuracy=1.000000
+Epoch[52] Train-cross-entropy=0.000249
+Epoch[52] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0053.params"
+Epoch[52] Validation-accuracy=0.683239
+Epoch[52] Validation-cross-entropy=2.989479
+Namespace(batch_size=64, begin_epoch=0, data_train_idx='data/data_train.idx', data_train_rec='data/data_train.rec', data_val_idx='data/data_val.idx', data_val_rec='data/data_val.rec', factor=0.2, fix_pretrain_param=False, from_scratch=False, gpus='0', image_shape='3,224,224', layer_name='flatten0', lr=0.0005, max_random_contrast=0.0, max_rotate_angle=0, model='model/resnet-18', mom=0.9, num_classes=2, num_epoch=100, num_examples=22500, period=100, random_mirror=0, resize_train=256, resize_val=224, save_name='resnet-18', save_result='output/resnet-18/', step=5, wd=0.0001)
+Epoch[0] Batch [100]	Speed: 626.93 samples/sec	accuracy=0.825031	cross-entropy=0.395019
+Epoch[0] Train-accuracy=0.927083
+Epoch[0] Train-cross-entropy=0.198241
+Epoch[0] Time cost=11.255
+Saved checkpoint to "output/resnet-18/resnet-18-0001.params"
+Epoch[0] Validation-accuracy=0.850260
+Epoch[0] Validation-cross-entropy=0.336267
+Epoch[1] Batch [100]	Speed: 629.93 samples/sec	accuracy=0.942141	cross-entropy=0.143995
+Epoch[1] Train-accuracy=0.953125
+Epoch[1] Train-cross-entropy=0.122027
+Epoch[1] Time cost=10.507
+Saved checkpoint to "output/resnet-18/resnet-18-0002.params"
+Epoch[1] Validation-accuracy=0.822443
+Epoch[1] Validation-cross-entropy=0.475049
+Epoch[2] Batch [100]	Speed: 629.11 samples/sec	accuracy=0.960396	cross-entropy=0.101543
+Epoch[2] Train-accuracy=0.945312
+Epoch[2] Train-cross-entropy=0.134383
+Epoch[2] Time cost=10.419
+Saved checkpoint to "output/resnet-18/resnet-18-0003.params"
+Epoch[2] Validation-accuracy=0.833333
+Epoch[2] Validation-cross-entropy=0.489943
+Epoch[3] Batch [100]	Speed: 627.60 samples/sec	accuracy=0.973236	cross-entropy=0.076631
+Epoch[3] Train-accuracy=0.947917
+Epoch[3] Train-cross-entropy=0.134383
+Epoch[3] Time cost=10.544
+Saved checkpoint to "output/resnet-18/resnet-18-0004.params"
+Epoch[3] Validation-accuracy=0.821023
+Epoch[3] Validation-cross-entropy=0.518462
+Epoch[4] Batch [100]	Speed: 628.74 samples/sec	accuracy=0.978960	cross-entropy=0.064199
+Epoch[4] Train-accuracy=1.000000
+Epoch[4] Train-cross-entropy=0.032406
+Epoch[4] Time cost=10.423
+Saved checkpoint to "output/resnet-18/resnet-18-0005.params"
+Epoch[4] Validation-accuracy=0.817708
+Epoch[4] Validation-cross-entropy=0.587018
+Epoch[5] Batch [100]	Speed: 628.98 samples/sec	accuracy=0.981745	cross-entropy=0.056713
+Epoch[5] Train-accuracy=0.973958
+Epoch[5] Train-cross-entropy=0.046994
+Epoch[5] Time cost=10.521
+Saved checkpoint to "output/resnet-18/resnet-18-0006.params"
+Epoch[5] Validation-accuracy=0.822443
+Epoch[5] Validation-cross-entropy=0.591573
+Epoch[6] Batch [100]	Speed: 627.97 samples/sec	accuracy=0.987314	cross-entropy=0.043721
+Epoch[6] Train-accuracy=1.000000
+Epoch[6] Train-cross-entropy=0.024620
+Epoch[6] Time cost=10.437
+Saved checkpoint to "output/resnet-18/resnet-18-0007.params"
+Epoch[6] Validation-accuracy=0.803385
+Epoch[6] Validation-cross-entropy=0.672045
+Epoch[7] Batch [100]	Speed: 627.76 samples/sec	accuracy=0.990718	cross-entropy=0.036870
+Epoch[7] Train-accuracy=0.994792
+Epoch[7] Train-cross-entropy=0.027944
+Epoch[7] Time cost=10.543
+Saved checkpoint to "output/resnet-18/resnet-18-0008.params"
+Epoch[7] Validation-accuracy=0.795455
+Epoch[7] Validation-cross-entropy=0.768912
+Epoch[8] Batch [100]	Speed: 628.32 samples/sec	accuracy=0.991646	cross-entropy=0.033078
+Epoch[8] Train-accuracy=0.992188
+Epoch[8] Train-cross-entropy=0.031163
+Epoch[8] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0009.params"
+Epoch[8] Validation-accuracy=0.798177
+Epoch[8] Validation-cross-entropy=0.783582
+Epoch[9] Batch [100]	Speed: 629.18 samples/sec	accuracy=0.994895	cross-entropy=0.027644
+Epoch[9] Train-accuracy=0.994792
+Epoch[9] Train-cross-entropy=0.026266
+Epoch[9] Time cost=10.516
+Saved checkpoint to "output/resnet-18/resnet-18-0010.params"
+Epoch[9] Validation-accuracy=0.805398
+Epoch[9] Validation-cross-entropy=0.734521
+Epoch[10] Batch [100]	Speed: 628.65 samples/sec	accuracy=0.995668	cross-entropy=0.024971
+Epoch[10] Train-accuracy=0.994792
+Epoch[10] Train-cross-entropy=0.021672
+Epoch[10] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0011.params"
+Epoch[10] Validation-accuracy=0.800781
+Epoch[10] Validation-cross-entropy=0.828127
+Epoch[11] Batch [100]	Speed: 627.78 samples/sec	accuracy=0.996751	cross-entropy=0.019911
+Epoch[11] Train-accuracy=1.000000
+Epoch[11] Train-cross-entropy=0.014038
+Epoch[11] Time cost=10.439
+Saved checkpoint to "output/resnet-18/resnet-18-0012.params"
+Epoch[11] Validation-accuracy=0.779830
+Epoch[11] Validation-cross-entropy=0.948044
+Epoch[12] Batch [100]	Speed: 628.25 samples/sec	accuracy=0.997061	cross-entropy=0.019080
+Epoch[12] Train-accuracy=0.963542
+Epoch[12] Train-cross-entropy=0.082709
+Epoch[12] Time cost=10.533
+Saved checkpoint to "output/resnet-18/resnet-18-0013.params"
+Epoch[12] Validation-accuracy=0.800781
+Epoch[12] Validation-cross-entropy=0.855434
+Epoch[13] Batch [100]	Speed: 628.03 samples/sec	accuracy=0.997370	cross-entropy=0.016565
+Epoch[13] Train-accuracy=0.992188
+Epoch[13] Train-cross-entropy=0.023553
+Epoch[13] Time cost=10.434
+Saved checkpoint to "output/resnet-18/resnet-18-0014.params"
+Epoch[13] Validation-accuracy=0.785511
+Epoch[13] Validation-cross-entropy=0.933487
+Epoch[14] Batch [100]	Speed: 628.00 samples/sec	accuracy=0.999536	cross-entropy=0.011478
+Epoch[14] Train-accuracy=1.000000
+Epoch[14] Train-cross-entropy=0.009132
+Epoch[14] Time cost=10.537
+Saved checkpoint to "output/resnet-18/resnet-18-0015.params"
+Epoch[14] Validation-accuracy=0.785156
+Epoch[14] Validation-cross-entropy=0.979577
+Epoch[15] Batch [100]	Speed: 628.03 samples/sec	accuracy=0.998608	cross-entropy=0.012678
+Epoch[15] Train-accuracy=1.000000
+Epoch[15] Train-cross-entropy=0.007382
+Epoch[15] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0016.params"
+Epoch[15] Validation-accuracy=0.784091
+Epoch[15] Validation-cross-entropy=1.013818
+Update[1756]: Change learning rate to 1.00000e-04
+Epoch[16] Batch [100]	Speed: 628.70 samples/sec	accuracy=0.999226	cross-entropy=0.011131
+Epoch[16] Train-accuracy=1.000000
+Epoch[16] Train-cross-entropy=0.007359
+Epoch[16] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0017.params"
+Epoch[16] Validation-accuracy=0.791667
+Epoch[16] Validation-cross-entropy=1.006606
+Epoch[17] Batch [100]	Speed: 628.34 samples/sec	accuracy=0.998762	cross-entropy=0.010983
+Epoch[17] Train-accuracy=0.992188
+Epoch[17] Train-cross-entropy=0.027310
+Epoch[17] Time cost=10.429
+Saved checkpoint to "output/resnet-18/resnet-18-0018.params"
+Epoch[17] Validation-accuracy=0.779830
+Epoch[17] Validation-cross-entropy=1.051288
+Epoch[18] Batch [100]	Speed: 628.58 samples/sec	accuracy=0.997989	cross-entropy=0.012135
+Epoch[18] Train-accuracy=1.000000
+Epoch[18] Train-cross-entropy=0.009527
+Epoch[18] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0019.params"
+Epoch[18] Validation-accuracy=0.794271
+Epoch[18] Validation-cross-entropy=0.948812
+Epoch[19] Batch [100]	Speed: 628.67 samples/sec	accuracy=0.999381	cross-entropy=0.010470
+Epoch[19] Train-accuracy=1.000000
+Epoch[19] Train-cross-entropy=0.010263
+Epoch[19] Time cost=10.422
+Saved checkpoint to "output/resnet-18/resnet-18-0020.params"
+Epoch[19] Validation-accuracy=0.769886
+Epoch[19] Validation-cross-entropy=1.111007
+Epoch[20] Batch [100]	Speed: 628.45 samples/sec	accuracy=1.000000	cross-entropy=0.008123
+Epoch[20] Train-accuracy=1.000000
+Epoch[20] Train-cross-entropy=0.008569
+Epoch[20] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0021.params"
+Epoch[20] Validation-accuracy=0.795573
+Epoch[20] Validation-cross-entropy=0.985054
+Epoch[21] Batch [100]	Speed: 627.92 samples/sec	accuracy=0.999381	cross-entropy=0.008528
+Epoch[21] Train-accuracy=1.000000
+Epoch[21] Train-cross-entropy=0.011546
+Epoch[21] Time cost=10.541
+Saved checkpoint to "output/resnet-18/resnet-18-0022.params"
+Epoch[21] Validation-accuracy=0.784091
+Epoch[21] Validation-cross-entropy=1.028116
+Epoch[22] Batch [100]	Speed: 628.13 samples/sec	accuracy=0.998453	cross-entropy=0.012322
+Epoch[22] Train-accuracy=1.000000
+Epoch[22] Train-cross-entropy=0.006485
+Epoch[22] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0023.params"
+Epoch[22] Validation-accuracy=0.777344
+Epoch[22] Validation-cross-entropy=1.057998
+Epoch[23] Batch [100]	Speed: 628.32 samples/sec	accuracy=0.999072	cross-entropy=0.009028
+Epoch[23] Train-accuracy=1.000000
+Epoch[23] Train-cross-entropy=0.005853
+Epoch[23] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0024.params"
+Epoch[23] Validation-accuracy=0.789773
+Epoch[23] Validation-cross-entropy=1.052333
+Epoch[24] Batch [100]	Speed: 628.64 samples/sec	accuracy=0.999072	cross-entropy=0.008891
+Epoch[24] Train-accuracy=1.000000
+Epoch[24] Train-cross-entropy=0.005909
+Epoch[24] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0025.params"
+Epoch[24] Validation-accuracy=0.789062
+Epoch[24] Validation-cross-entropy=1.032482
+Epoch[25] Batch [100]	Speed: 628.23 samples/sec	accuracy=0.998453	cross-entropy=0.010558
+Epoch[25] Train-accuracy=1.000000
+Epoch[25] Train-cross-entropy=0.006028
+Epoch[25] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0026.params"
+Epoch[25] Validation-accuracy=0.786932
+Epoch[25] Validation-cross-entropy=1.060518
+Epoch[26] Batch [100]	Speed: 628.63 samples/sec	accuracy=0.999072	cross-entropy=0.009090
+Epoch[26] Train-accuracy=1.000000
+Epoch[26] Train-cross-entropy=0.014435
+Epoch[26] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0027.params"
+Epoch[26] Validation-accuracy=0.798177
+Epoch[26] Validation-cross-entropy=0.964386
+Epoch[27] Batch [100]	Speed: 627.81 samples/sec	accuracy=0.998762	cross-entropy=0.008526
+Epoch[27] Train-accuracy=1.000000
+Epoch[27] Train-cross-entropy=0.012393
+Epoch[27] Time cost=10.540
+Saved checkpoint to "output/resnet-18/resnet-18-0028.params"
+Epoch[27] Validation-accuracy=0.772727
+Epoch[27] Validation-cross-entropy=1.136719
+Epoch[28] Batch [100]	Speed: 629.06 samples/sec	accuracy=0.999691	cross-entropy=0.007695
+Epoch[28] Train-accuracy=0.992188
+Epoch[28] Train-cross-entropy=0.014423
+Epoch[28] Time cost=10.418
+Saved checkpoint to "output/resnet-18/resnet-18-0029.params"
+Epoch[28] Validation-accuracy=0.802083
+Epoch[28] Validation-cross-entropy=0.922559
+Epoch[29] Batch [100]	Speed: 628.61 samples/sec	accuracy=0.999691	cross-entropy=0.007457
+Epoch[29] Train-accuracy=1.000000
+Epoch[29] Train-cross-entropy=0.012643
+Epoch[29] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0030.params"
+Epoch[29] Validation-accuracy=0.788352
+Epoch[29] Validation-cross-entropy=1.068535
+Epoch[30] Batch [100]	Speed: 628.51 samples/sec	accuracy=0.998917	cross-entropy=0.009099
+Epoch[30] Train-accuracy=1.000000
+Epoch[30] Train-cross-entropy=0.007033
+Epoch[30] Time cost=10.428
+Saved checkpoint to "output/resnet-18/resnet-18-0031.params"
+Epoch[30] Validation-accuracy=0.782552
+Epoch[30] Validation-cross-entropy=1.086058
+Epoch[31] Batch [100]	Speed: 628.45 samples/sec	accuracy=0.999691	cross-entropy=0.007174
+Epoch[31] Train-accuracy=1.000000
+Epoch[31] Train-cross-entropy=0.005200
+Epoch[31] Time cost=10.530
+Saved checkpoint to "output/resnet-18/resnet-18-0032.params"
+Epoch[31] Validation-accuracy=0.790365
+Epoch[31] Validation-cross-entropy=1.048292
+Epoch[32] Batch [100]	Speed: 627.52 samples/sec	accuracy=0.998917	cross-entropy=0.008904
+Epoch[32] Train-accuracy=1.000000
+Epoch[32] Train-cross-entropy=0.006372
+Epoch[32] Time cost=10.547
+Saved checkpoint to "output/resnet-18/resnet-18-0033.params"
+Epoch[32] Validation-accuracy=0.781250
+Epoch[32] Validation-cross-entropy=1.086325
+Update[3511]: Change learning rate to 2.00000e-05
+Epoch[33] Batch [100]	Speed: 627.76 samples/sec	accuracy=0.999381	cross-entropy=0.007521
+Epoch[33] Train-accuracy=1.000000
+Epoch[33] Train-cross-entropy=0.012897
+Epoch[33] Time cost=10.438
+Saved checkpoint to "output/resnet-18/resnet-18-0034.params"
+Epoch[33] Validation-accuracy=0.776042
+Epoch[33] Validation-cross-entropy=1.111602
+Epoch[34] Batch [100]	Speed: 628.60 samples/sec	accuracy=0.999536	cross-entropy=0.007486
+Epoch[34] Train-accuracy=1.000000
+Epoch[34] Train-cross-entropy=0.002137
+Epoch[34] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0035.params"
+Epoch[34] Validation-accuracy=0.782670
+Epoch[34] Validation-cross-entropy=1.094253
+Epoch[35] Batch [100]	Speed: 628.06 samples/sec	accuracy=0.999691	cross-entropy=0.007221
+Epoch[35] Train-accuracy=1.000000
+Epoch[35] Train-cross-entropy=0.003715
+Epoch[35] Time cost=10.435
+Saved checkpoint to "output/resnet-18/resnet-18-0036.params"
+Epoch[35] Validation-accuracy=0.778646
+Epoch[35] Validation-cross-entropy=1.098366
+Epoch[36] Batch [100]	Speed: 628.91 samples/sec	accuracy=0.999845	cross-entropy=0.006338
+Epoch[36] Train-accuracy=1.000000
+Epoch[36] Train-cross-entropy=0.004799
+Epoch[36] Time cost=10.523
+Saved checkpoint to "output/resnet-18/resnet-18-0037.params"
+Epoch[36] Validation-accuracy=0.785511
+Epoch[36] Validation-cross-entropy=1.098416
+Epoch[37] Batch [100]	Speed: 628.05 samples/sec	accuracy=0.999691	cross-entropy=0.007130
+Epoch[37] Train-accuracy=1.000000
+Epoch[37] Train-cross-entropy=0.004599
+Epoch[37] Time cost=10.436
+Saved checkpoint to "output/resnet-18/resnet-18-0038.params"
+Epoch[37] Validation-accuracy=0.794271
+Epoch[37] Validation-cross-entropy=1.042652
+Epoch[38] Batch [100]	Speed: 627.94 samples/sec	accuracy=0.999845	cross-entropy=0.006783
+Epoch[38] Train-accuracy=1.000000
+Epoch[38] Train-cross-entropy=0.004929
+Epoch[38] Time cost=10.538
+Saved checkpoint to "output/resnet-18/resnet-18-0039.params"
+Epoch[38] Validation-accuracy=0.791193
+Epoch[38] Validation-cross-entropy=1.050413
+Epoch[39] Batch [100]	Speed: 627.96 samples/sec	accuracy=0.999381	cross-entropy=0.006400
+Epoch[39] Train-accuracy=1.000000
+Epoch[39] Train-cross-entropy=0.007231
+Epoch[39] Time cost=10.437
+Saved checkpoint to "output/resnet-18/resnet-18-0040.params"
+Epoch[39] Validation-accuracy=0.773438
+Epoch[39] Validation-cross-entropy=1.115261
+Epoch[40] Batch [100]	Speed: 627.63 samples/sec	accuracy=0.999845	cross-entropy=0.006883
+Epoch[40] Train-accuracy=1.000000
+Epoch[40] Train-cross-entropy=0.005294
+Epoch[40] Time cost=10.542
+Saved checkpoint to "output/resnet-18/resnet-18-0041.params"
+Epoch[40] Validation-accuracy=0.767045
+Epoch[40] Validation-cross-entropy=1.157573
+Epoch[41] Batch [100]	Speed: 628.33 samples/sec	accuracy=0.999072	cross-entropy=0.007422
+Epoch[41] Train-accuracy=1.000000
+Epoch[41] Train-cross-entropy=0.009385
+Epoch[41] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0042.params"
+Epoch[41] Validation-accuracy=0.800781
+Epoch[41] Validation-cross-entropy=0.951535
+Epoch[42] Batch [100]	Speed: 627.48 samples/sec	accuracy=0.998762	cross-entropy=0.008964
+Epoch[42] Train-accuracy=1.000000
+Epoch[42] Train-cross-entropy=0.006690
+Epoch[42] Time cost=10.545
+Saved checkpoint to "output/resnet-18/resnet-18-0043.params"
+Epoch[42] Validation-accuracy=0.769886
+Epoch[42] Validation-cross-entropy=1.162984
+Epoch[43] Batch [100]	Speed: 628.07 samples/sec	accuracy=0.998917	cross-entropy=0.008652
+Epoch[43] Train-accuracy=1.000000
+Epoch[43] Train-cross-entropy=0.004750
+Epoch[43] Time cost=10.535
+Saved checkpoint to "output/resnet-18/resnet-18-0044.params"
+Epoch[43] Validation-accuracy=0.791667
+Epoch[43] Validation-cross-entropy=1.044249
+Epoch[44] Batch [100]	Speed: 627.55 samples/sec	accuracy=0.999536	cross-entropy=0.007589
+Epoch[44] Train-accuracy=1.000000
+Epoch[44] Train-cross-entropy=0.004653
+Epoch[44] Time cost=10.443
+Saved checkpoint to "output/resnet-18/resnet-18-0045.params"
+Epoch[44] Validation-accuracy=0.774148
+Epoch[44] Validation-cross-entropy=1.134207
+Epoch[45] Batch [100]	Speed: 628.67 samples/sec	accuracy=0.999536	cross-entropy=0.007048
+Epoch[45] Train-accuracy=1.000000
+Epoch[45] Train-cross-entropy=0.006123
+Epoch[45] Time cost=10.527
+Saved checkpoint to "output/resnet-18/resnet-18-0046.params"
+Epoch[45] Validation-accuracy=0.774740
+Epoch[45] Validation-cross-entropy=1.129928
+Epoch[46] Batch [100]	Speed: 628.51 samples/sec	accuracy=0.999381	cross-entropy=0.006772
+Epoch[46] Train-accuracy=1.000000
+Epoch[46] Train-cross-entropy=0.008326
+Epoch[46] Time cost=10.427
+Saved checkpoint to "output/resnet-18/resnet-18-0047.params"
+Epoch[46] Validation-accuracy=0.795455
+Epoch[46] Validation-cross-entropy=1.022868
+Epoch[47] Batch [100]	Speed: 628.19 samples/sec	accuracy=0.999845	cross-entropy=0.005572
+Epoch[47] Train-accuracy=1.000000
+Epoch[47] Train-cross-entropy=0.004532
+Epoch[47] Time cost=10.534
+Saved checkpoint to "output/resnet-18/resnet-18-0048.params"
+Epoch[47] Validation-accuracy=0.798177
+Epoch[47] Validation-cross-entropy=1.024689
+Epoch[48] Batch [100]	Speed: 628.14 samples/sec	accuracy=0.999072	cross-entropy=0.007904
+Epoch[48] Train-accuracy=1.000000
+Epoch[48] Train-cross-entropy=0.003638
+Epoch[48] Time cost=10.433
+Saved checkpoint to "output/resnet-18/resnet-18-0049.params"
+Epoch[48] Validation-accuracy=0.778409
+Epoch[48] Validation-cross-entropy=1.122829
+Epoch[49] Batch [100]	Speed: 618.11 samples/sec	accuracy=0.999381	cross-entropy=0.007462
+Epoch[49] Train-accuracy=1.000000
+Epoch[49] Train-cross-entropy=0.019331
+Epoch[49] Time cost=10.701
+Saved checkpoint to "output/resnet-18/resnet-18-0050.params"
+Epoch[49] Validation-accuracy=0.783854
+Epoch[49] Validation-cross-entropy=1.058491
+Update[5266]: Change learning rate to 4.00000e-06
+Epoch[50] Batch [100]	Speed: 627.32 samples/sec	accuracy=0.999845	cross-entropy=0.007005
+Epoch[50] Train-accuracy=1.000000
+Epoch[50] Train-cross-entropy=0.002582
+Epoch[50] Time cost=10.448
+Saved checkpoint to "output/resnet-18/resnet-18-0051.params"
+Epoch[50] Validation-accuracy=0.792614
+Epoch[50] Validation-cross-entropy=1.084405
+Epoch[51] Batch [100]	Speed: 628.24 samples/sec	accuracy=0.999691	cross-entropy=0.006474
+Epoch[51] Train-accuracy=1.000000
+Epoch[51] Train-cross-entropy=0.005120
+Epoch[51] Time cost=10.533
+Saved checkpoint to "output/resnet-18/resnet-18-0052.params"
+Epoch[51] Validation-accuracy=0.789062
+Epoch[51] Validation-cross-entropy=1.079062
+Epoch[52] Batch [100]	Speed: 628.98 samples/sec	accuracy=1.000000	cross-entropy=0.006491
+Epoch[52] Train-accuracy=1.000000
+Epoch[52] Train-cross-entropy=0.005407
+Epoch[52] Time cost=10.420
+Saved checkpoint to "output/resnet-18/resnet-18-0053.params"
+Epoch[52] Validation-accuracy=0.768466
+Epoch[52] Validation-cross-entropy=1.217218
+Epoch[53] Batch [100]	Speed: 628.51 samples/sec	accuracy=0.999226	cross-entropy=0.006875
+Epoch[53] Train-accuracy=1.000000
+Epoch[53] Train-cross-entropy=0.004504
+Epoch[53] Time cost=10.529
+Saved checkpoint to "output/resnet-18/resnet-18-0054.params"
+Epoch[53] Validation-accuracy=0.796875
+Epoch[53] Validation-cross-entropy=1.032128
+Epoch[54] Batch [100]	Speed: 628.47 samples/sec	accuracy=0.999226	cross-entropy=0.008092
+Epoch[54] Train-accuracy=1.000000
+Epoch[54] Train-cross-entropy=0.005775
+Epoch[54] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0055.params"
+Epoch[54] Validation-accuracy=0.782670
+Epoch[54] Validation-cross-entropy=1.095253
+Epoch[55] Batch [100]	Speed: 628.26 samples/sec	accuracy=0.999691	cross-entropy=0.006394
+Epoch[55] Train-accuracy=1.000000
+Epoch[55] Train-cross-entropy=0.004326
+Epoch[55] Time cost=10.432
+Saved checkpoint to "output/resnet-18/resnet-18-0056.params"
+Epoch[55] Validation-accuracy=0.772135
+Epoch[55] Validation-cross-entropy=1.153447
+Epoch[56] Batch [100]	Speed: 628.62 samples/sec	accuracy=0.999226	cross-entropy=0.008751
+Epoch[56] Train-accuracy=1.000000
+Epoch[56] Train-cross-entropy=0.003266
+Epoch[56] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0057.params"
+Epoch[56] Validation-accuracy=0.776989
+Epoch[56] Validation-cross-entropy=1.159786
+Epoch[57] Batch [100]	Speed: 628.77 samples/sec	accuracy=1.000000	cross-entropy=0.006100
+Epoch[57] Train-accuracy=1.000000
+Epoch[57] Train-cross-entropy=0.002901
+Epoch[57] Time cost=10.422
+Saved checkpoint to "output/resnet-18/resnet-18-0058.params"
+Epoch[57] Validation-accuracy=0.790365
+Epoch[57] Validation-cross-entropy=1.084100
+Epoch[58] Batch [100]	Speed: 628.46 samples/sec	accuracy=0.999381	cross-entropy=0.006999
+Epoch[58] Train-accuracy=1.000000
+Epoch[58] Train-cross-entropy=0.004041
+Epoch[58] Time cost=10.530
+Saved checkpoint to "output/resnet-18/resnet-18-0059.params"
+Epoch[58] Validation-accuracy=0.785511
+Epoch[58] Validation-cross-entropy=1.098863
+Epoch[59] Batch [100]	Speed: 628.42 samples/sec	accuracy=0.999691	cross-entropy=0.007128
+Epoch[59] Train-accuracy=1.000000
+Epoch[59] Train-cross-entropy=0.006225
+Epoch[59] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0060.params"
+Epoch[59] Validation-accuracy=0.792969
+Epoch[59] Validation-cross-entropy=1.048626
+Epoch[60] Batch [100]	Speed: 628.54 samples/sec	accuracy=0.998917	cross-entropy=0.007709
+Epoch[60] Train-accuracy=1.000000
+Epoch[60] Train-cross-entropy=0.005203
+Epoch[60] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0061.params"
+Epoch[60] Validation-accuracy=0.788352
+Epoch[60] Validation-cross-entropy=1.069167
+Epoch[61] Batch [100]	Speed: 627.78 samples/sec	accuracy=0.999691	cross-entropy=0.007178
+Epoch[61] Train-accuracy=1.000000
+Epoch[61] Train-cross-entropy=0.005983
+Epoch[61] Time cost=10.440
+Saved checkpoint to "output/resnet-18/resnet-18-0062.params"
+Epoch[61] Validation-accuracy=0.789062
+Epoch[61] Validation-cross-entropy=1.069964
+Epoch[62] Batch [100]	Speed: 628.14 samples/sec	accuracy=0.999845	cross-entropy=0.006269
+Epoch[62] Train-accuracy=1.000000
+Epoch[62] Train-cross-entropy=0.011030
+Epoch[62] Time cost=10.535
+Saved checkpoint to "output/resnet-18/resnet-18-0063.params"
+Epoch[62] Validation-accuracy=0.791193
+Epoch[62] Validation-cross-entropy=1.070622
+Epoch[63] Batch [100]	Speed: 628.75 samples/sec	accuracy=0.999536	cross-entropy=0.006243
+Epoch[63] Train-accuracy=1.000000
+Epoch[63] Train-cross-entropy=0.006506
+Epoch[63] Time cost=10.422
+Saved checkpoint to "output/resnet-18/resnet-18-0064.params"
+Epoch[63] Validation-accuracy=0.795573
+Epoch[63] Validation-cross-entropy=1.031556
+Epoch[64] Batch [100]	Speed: 628.85 samples/sec	accuracy=1.000000	cross-entropy=0.006134
+Epoch[64] Train-accuracy=1.000000
+Epoch[64] Train-cross-entropy=0.004946
+Epoch[64] Time cost=10.524
+Saved checkpoint to "output/resnet-18/resnet-18-0065.params"
+Epoch[64] Validation-accuracy=0.774740
+Epoch[64] Validation-cross-entropy=1.126285
+Epoch[65] Batch [100]	Speed: 627.89 samples/sec	accuracy=0.999845	cross-entropy=0.005552
+Epoch[65] Train-accuracy=1.000000
+Epoch[65] Train-cross-entropy=0.004144
+Epoch[65] Time cost=10.539
+Saved checkpoint to "output/resnet-18/resnet-18-0066.params"
+Epoch[65] Validation-accuracy=0.794034
+Epoch[65] Validation-cross-entropy=1.044468
+Epoch[66] Batch [100]	Speed: 627.50 samples/sec	accuracy=0.998917	cross-entropy=0.008749
+Epoch[66] Train-accuracy=1.000000
+Epoch[66] Train-cross-entropy=0.005192
+Epoch[66] Time cost=10.445
+Saved checkpoint to "output/resnet-18/resnet-18-0067.params"
+Epoch[66] Validation-accuracy=0.794271
+Epoch[66] Validation-cross-entropy=1.039902
+Update[7021]: Change learning rate to 8.00000e-07
+Epoch[67] Batch [100]	Speed: 628.28 samples/sec	accuracy=0.999845	cross-entropy=0.006454
+Epoch[67] Train-accuracy=1.000000
+Epoch[67] Train-cross-entropy=0.004176
+Epoch[67] Time cost=10.532
+Saved checkpoint to "output/resnet-18/resnet-18-0068.params"
+Epoch[67] Validation-accuracy=0.788352
+Epoch[67] Validation-cross-entropy=1.082764
+Epoch[68] Batch [100]	Speed: 628.14 samples/sec	accuracy=0.999845	cross-entropy=0.006689
+Epoch[68] Train-accuracy=1.000000
+Epoch[68] Train-cross-entropy=0.008615
+Epoch[68] Time cost=10.434
+Saved checkpoint to "output/resnet-18/resnet-18-0069.params"
+Epoch[68] Validation-accuracy=0.776042
+Epoch[68] Validation-cross-entropy=1.159424
+Epoch[69] Batch [100]	Speed: 628.14 samples/sec	accuracy=0.999691	cross-entropy=0.006669
+Epoch[69] Train-accuracy=1.000000
+Epoch[69] Train-cross-entropy=0.006802
+Epoch[69] Time cost=10.535
+Saved checkpoint to "output/resnet-18/resnet-18-0070.params"
+Epoch[69] Validation-accuracy=0.774148
+Epoch[69] Validation-cross-entropy=1.135334
+Epoch[70] Batch [100]	Speed: 629.13 samples/sec	accuracy=0.999381	cross-entropy=0.006422
+Epoch[70] Train-accuracy=1.000000
+Epoch[70] Train-cross-entropy=0.007207
+Epoch[70] Time cost=10.417
+Saved checkpoint to "output/resnet-18/resnet-18-0071.params"
+Epoch[70] Validation-accuracy=0.787760
+Epoch[70] Validation-cross-entropy=1.048545
+Epoch[71] Batch [100]	Speed: 627.77 samples/sec	accuracy=0.998917	cross-entropy=0.007141
+Epoch[71] Train-accuracy=1.000000
+Epoch[71] Train-cross-entropy=0.006635
+Epoch[71] Time cost=10.541
+Saved checkpoint to "output/resnet-18/resnet-18-0072.params"
+Epoch[71] Validation-accuracy=0.779830
+Epoch[71] Validation-cross-entropy=1.119842
+Epoch[72] Batch [100]	Speed: 628.31 samples/sec	accuracy=0.999536	cross-entropy=0.007041
+Epoch[72] Train-accuracy=1.000000
+Epoch[72] Train-cross-entropy=0.008341
+Epoch[72] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0073.params"
+Epoch[72] Validation-accuracy=0.798177
+Epoch[72] Validation-cross-entropy=1.016547
+Epoch[73] Batch [100]	Speed: 628.53 samples/sec	accuracy=0.999072	cross-entropy=0.007417
+Epoch[73] Train-accuracy=1.000000
+Epoch[73] Train-cross-entropy=0.009042
+Epoch[73] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0074.params"
+Epoch[73] Validation-accuracy=0.785511
+Epoch[73] Validation-cross-entropy=1.102823
+Epoch[74] Batch [100]	Speed: 628.78 samples/sec	accuracy=0.999536	cross-entropy=0.006863
+Epoch[74] Train-accuracy=1.000000
+Epoch[74] Train-cross-entropy=0.006152
+Epoch[74] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0075.params"
+Epoch[74] Validation-accuracy=0.790365
+Epoch[74] Validation-cross-entropy=1.027728
+Epoch[75] Batch [100]	Speed: 627.99 samples/sec	accuracy=0.999226	cross-entropy=0.006787
+Epoch[75] Train-accuracy=1.000000
+Epoch[75] Train-cross-entropy=0.006539
+Epoch[75] Time cost=10.436
+Saved checkpoint to "output/resnet-18/resnet-18-0076.params"
+Epoch[75] Validation-accuracy=0.785511
+Epoch[75] Validation-cross-entropy=1.098785
+Epoch[76] Batch [100]	Speed: 627.97 samples/sec	accuracy=0.999536	cross-entropy=0.007150
+Epoch[76] Train-accuracy=0.989583
+Epoch[76] Train-cross-entropy=0.023926
+Epoch[76] Time cost=10.538
+Saved checkpoint to "output/resnet-18/resnet-18-0077.params"
+Epoch[76] Validation-accuracy=0.799479
+Epoch[76] Validation-cross-entropy=0.997457
+Epoch[77] Batch [100]	Speed: 628.14 samples/sec	accuracy=0.999691	cross-entropy=0.007486
+Epoch[77] Train-accuracy=1.000000
+Epoch[77] Train-cross-entropy=0.005594
+Epoch[77] Time cost=10.433
+Saved checkpoint to "output/resnet-18/resnet-18-0078.params"
+Epoch[77] Validation-accuracy=0.796875
+Epoch[77] Validation-cross-entropy=1.001003
+Epoch[78] Batch [100]	Speed: 628.24 samples/sec	accuracy=0.999845	cross-entropy=0.005632
+Epoch[78] Train-accuracy=1.000000
+Epoch[78] Train-cross-entropy=0.004499
+Epoch[78] Time cost=10.533
+Saved checkpoint to "output/resnet-18/resnet-18-0079.params"
+Epoch[78] Validation-accuracy=0.792969
+Epoch[78] Validation-cross-entropy=1.057338
+Epoch[79] Batch [100]	Speed: 628.47 samples/sec	accuracy=1.000000	cross-entropy=0.005956
+Epoch[79] Train-accuracy=1.000000
+Epoch[79] Train-cross-entropy=0.004092
+Epoch[79] Time cost=10.429
+Saved checkpoint to "output/resnet-18/resnet-18-0080.params"
+Epoch[79] Validation-accuracy=0.778409
+Epoch[79] Validation-cross-entropy=1.125716
+Epoch[80] Batch [100]	Speed: 628.27 samples/sec	accuracy=0.999691	cross-entropy=0.005831
+Epoch[80] Train-accuracy=1.000000
+Epoch[80] Train-cross-entropy=0.006360
+Epoch[80] Time cost=10.531
+Saved checkpoint to "output/resnet-18/resnet-18-0081.params"
+Epoch[80] Validation-accuracy=0.794271
+Epoch[80] Validation-cross-entropy=1.021939
+Epoch[81] Batch [100]	Speed: 628.58 samples/sec	accuracy=0.999845	cross-entropy=0.006163
+Epoch[81] Train-accuracy=1.000000
+Epoch[81] Train-cross-entropy=0.002583
+Epoch[81] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0082.params"
+Epoch[81] Validation-accuracy=0.792614
+Epoch[81] Validation-cross-entropy=1.058321
+Epoch[82] Batch [100]	Speed: 628.40 samples/sec	accuracy=0.999691	cross-entropy=0.006250
+Epoch[82] Train-accuracy=1.000000
+Epoch[82] Train-cross-entropy=0.008644
+Epoch[82] Time cost=10.530
+Saved checkpoint to "output/resnet-18/resnet-18-0083.params"
+Epoch[82] Validation-accuracy=0.777344
+Epoch[82] Validation-cross-entropy=1.095830
+Epoch[83] Batch [100]	Speed: 628.41 samples/sec	accuracy=0.999226	cross-entropy=0.007934
+Epoch[83] Train-accuracy=1.000000
+Epoch[83] Train-cross-entropy=0.003173
+Epoch[83] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0084.params"
+Epoch[83] Validation-accuracy=0.798295
+Epoch[83] Validation-cross-entropy=1.015177
+Update[8776]: Change learning rate to 1.60000e-07
+Epoch[84] Batch [100]	Speed: 628.62 samples/sec	accuracy=0.999691	cross-entropy=0.006086
+Epoch[84] Train-accuracy=1.000000
+Epoch[84] Train-cross-entropy=0.006217
+Epoch[84] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0085.params"
+Epoch[84] Validation-accuracy=0.783854
+Epoch[84] Validation-cross-entropy=1.084586
+Epoch[85] Batch [100]	Speed: 628.58 samples/sec	accuracy=0.999072	cross-entropy=0.007233
+Epoch[85] Train-accuracy=1.000000
+Epoch[85] Train-cross-entropy=0.004539
+Epoch[85] Time cost=10.528
+Saved checkpoint to "output/resnet-18/resnet-18-0086.params"
+Epoch[85] Validation-accuracy=0.786932
+Epoch[85] Validation-cross-entropy=1.108053
+Epoch[86] Batch [100]	Speed: 628.64 samples/sec	accuracy=0.999691	cross-entropy=0.006021
+Epoch[86] Train-accuracy=1.000000
+Epoch[86] Train-cross-entropy=0.010133
+Epoch[86] Time cost=10.425
+Saved checkpoint to "output/resnet-18/resnet-18-0087.params"
+Epoch[86] Validation-accuracy=0.772135
+Epoch[86] Validation-cross-entropy=1.157989
+Epoch[87] Batch [100]	Speed: 627.94 samples/sec	accuracy=0.999845	cross-entropy=0.006494
+Epoch[87] Train-accuracy=1.000000
+Epoch[87] Train-cross-entropy=0.002713
+Epoch[87] Time cost=10.537
+Saved checkpoint to "output/resnet-18/resnet-18-0088.params"
+Epoch[87] Validation-accuracy=0.782670
+Epoch[87] Validation-cross-entropy=1.107104
+Epoch[88] Batch [100]	Speed: 628.37 samples/sec	accuracy=0.999536	cross-entropy=0.007596
+Epoch[88] Train-accuracy=1.000000
+Epoch[88] Train-cross-entropy=0.001686
+Epoch[88] Time cost=10.429
+Saved checkpoint to "output/resnet-18/resnet-18-0089.params"
+Epoch[88] Validation-accuracy=0.792969
+Epoch[88] Validation-cross-entropy=1.067980
+Epoch[89] Batch [100]	Speed: 628.48 samples/sec	accuracy=0.999381	cross-entropy=0.007107
+Epoch[89] Train-accuracy=1.000000
+Epoch[89] Train-cross-entropy=0.010802
+Epoch[89] Time cost=10.530
+Saved checkpoint to "output/resnet-18/resnet-18-0090.params"
+Epoch[89] Validation-accuracy=0.784091
+Epoch[89] Validation-cross-entropy=1.105944
+Epoch[90] Batch [100]	Speed: 628.58 samples/sec	accuracy=0.999536	cross-entropy=0.008090
+Epoch[90] Train-accuracy=1.000000
+Epoch[90] Train-cross-entropy=0.020321
+Epoch[90] Time cost=10.426
+Saved checkpoint to "output/resnet-18/resnet-18-0091.params"
+Epoch[90] Validation-accuracy=0.774740
+Epoch[90] Validation-cross-entropy=1.132410
+Epoch[91] Batch [100]	Speed: 627.80 samples/sec	accuracy=0.999381	cross-entropy=0.007969
+Epoch[91] Train-accuracy=1.000000
+Epoch[91] Train-cross-entropy=0.002641
+Epoch[91] Time cost=10.543
+Saved checkpoint to "output/resnet-18/resnet-18-0092.params"
+Epoch[91] Validation-accuracy=0.795455
+Epoch[91] Validation-cross-entropy=1.036767
+Epoch[92] Batch [100]	Speed: 628.34 samples/sec	accuracy=1.000000	cross-entropy=0.006812
+Epoch[92] Train-accuracy=1.000000
+Epoch[92] Train-cross-entropy=0.005198
+Epoch[92] Time cost=10.430
+Saved checkpoint to "output/resnet-18/resnet-18-0093.params"
+Epoch[92] Validation-accuracy=0.796875
+Epoch[92] Validation-cross-entropy=1.022841
+Epoch[93] Batch [100]	Speed: 628.75 samples/sec	accuracy=0.999226	cross-entropy=0.006606
+Epoch[93] Train-accuracy=1.000000
+Epoch[93] Train-cross-entropy=0.009129
+Epoch[93] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0094.params"
+Epoch[93] Validation-accuracy=0.779830
+Epoch[93] Validation-cross-entropy=1.109844
+Epoch[94] Batch [100]	Speed: 627.76 samples/sec	accuracy=0.999691	cross-entropy=0.007286
+Epoch[94] Train-accuracy=1.000000
+Epoch[94] Train-cross-entropy=0.012797
+Epoch[94] Time cost=10.442
+Saved checkpoint to "output/resnet-18/resnet-18-0095.params"
+Epoch[94] Validation-accuracy=0.799479
+Epoch[94] Validation-cross-entropy=0.998883
+Epoch[95] Batch [100]	Speed: 627.43 samples/sec	accuracy=0.999845	cross-entropy=0.006175
+Epoch[95] Train-accuracy=1.000000
+Epoch[95] Train-cross-entropy=0.004418
+Epoch[95] Time cost=10.547
+Saved checkpoint to "output/resnet-18/resnet-18-0096.params"
+Epoch[95] Validation-accuracy=0.781250
+Epoch[95] Validation-cross-entropy=1.115152
+Epoch[96] Batch [100]	Speed: 628.18 samples/sec	accuracy=1.000000	cross-entropy=0.005255
+Epoch[96] Train-accuracy=1.000000
+Epoch[96] Train-cross-entropy=0.005990
+Epoch[96] Time cost=10.533
+Saved checkpoint to "output/resnet-18/resnet-18-0097.params"
+Epoch[96] Validation-accuracy=0.768466
+Epoch[96] Validation-cross-entropy=1.163379
+Epoch[97] Batch [100]	Speed: 628.33 samples/sec	accuracy=0.999845	cross-entropy=0.006479
+Epoch[97] Train-accuracy=1.000000
+Epoch[97] Train-cross-entropy=0.005981
+Epoch[97] Time cost=10.433
+Saved checkpoint to "output/resnet-18/resnet-18-0098.params"
+Epoch[97] Validation-accuracy=0.790365
+Epoch[97] Validation-cross-entropy=1.075344
+Epoch[98] Batch [100]	Speed: 628.79 samples/sec	accuracy=0.999536	cross-entropy=0.007188
+Epoch[98] Train-accuracy=1.000000
+Epoch[98] Train-cross-entropy=0.003054
+Epoch[98] Time cost=10.526
+Saved checkpoint to "output/resnet-18/resnet-18-0099.params"
+Epoch[98] Validation-accuracy=0.785511
+Epoch[98] Validation-cross-entropy=1.081364
+Epoch[99] Batch [100]	Speed: 627.83 samples/sec	accuracy=0.998917	cross-entropy=0.007916
+Epoch[99] Train-accuracy=1.000000
+Epoch[99] Train-cross-entropy=0.004617
+Epoch[99] Time cost=10.438
+Saved checkpoint to "output/resnet-18/resnet-18-0100.params"
+Epoch[99] Validation-accuracy=0.783854
+Epoch[99] Validation-cross-entropy=1.103774
