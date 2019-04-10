@@ -36,7 +36,7 @@ def get_output(model, data):
 def main():
     label_map = {0: "short", 1: "long "}
     model_prefix = "output/resnet-18/resnet-18"
-    index = 10
+    index = 99
     context = mx.cpu()
     data_shapes = [('data', (1, 3, 224, 224))]
     label_shapes = [('softmax_label', (1,))]
