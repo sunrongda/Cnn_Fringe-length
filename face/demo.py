@@ -34,15 +34,15 @@ def get_output(model, data):
     return cla_label
 
 def main():
-    label_map = {0: "short", 1: "long "}
+    label_map = {0: "ture", 1: "fasle "}
     model_prefix = "output/resnet-18/resnet-18"
-    index = 99
+    index = 98
     context = mx.cpu()
     data_shapes = [('data', (1, 3, 224, 224))]
     label_shapes = [('softmax_label', (1,))]
     model = load_model(model_prefix, index, context, data_shapes, label_shapes)
 
-    data_path = "data/1.jpg"
+    data_path = "data/6.jpg"
     data = load_data(data_path)
 
     cla_label = get_output(model, data)
